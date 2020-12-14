@@ -8,4 +8,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+This research website contains the analyses used on the Papuan hair samples collected by [Francois-Xavier Ricaut](https://edb.cnrs.fr/annuaire/francois-xavier-ricaut/) and [Nicolas Brucato](https://scholar.google.com/citations?user=lkINfZ4AAAAJ&hl=en). Hair sample preparation and image analysis was carried out by [Tina Lasisi](https://www.tinalasisi.com/).
+
+Raw images will be uploaded on Zenodo and linked [here]().
+
+Results of the analysis for cross-sectional data can be found [here](section.html). Results of the analysis for curvature data can be found [here]().
+
+Image analysis was carried out with the [fibermorph](https://pypi.org/project/fibermorph/) Python package. 
+
+Sample preparation and image analysis details are described [here](https://www.biorxiv.org/content/10.1101/2020.11.24.392191v1).
+

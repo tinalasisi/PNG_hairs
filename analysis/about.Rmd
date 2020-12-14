@@ -7,4 +7,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+[under construction]
+
+This website was developed using [workflowr](https://github.com/jdblischak/workflowr), [rmarkdown](https://rmarkdown.rstudio.com/), and [GitHub](https://github.com/).
