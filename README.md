@@ -1,4 +1,4 @@
-# PNG_hairs
+# PNG hairs
 
 A [workflowr][] project.
 
