@@ -59,7 +59,7 @@ PNG_df_merged_long <- pivot_longer(data = PNG_df_merged_wide, cols = curv_mean:m
 
 # Exploratory data analysis
 
-There appear to be no significant differences among groups in the different hair variables.
+There appear to be no significant differences among groups in the different hair variables. None of the individuals analyzed had treated hair.
 
 ```{r plt_HairVarMean, fig.width=16, fig.height=20}
 
@@ -111,6 +111,4 @@ pltsave_func(plt_HairVarMedian, plot_path, width = 16, height = 20)
 
 plt_HairVarMedian
 ```
-
-
 
