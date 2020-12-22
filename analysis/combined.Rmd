@@ -39,21 +39,18 @@ Here, we merge the participant information with section and curvature data.
 
 ```{r df_datamerge, echo=TRUE}
 
-section_df_premerge <- as_tibble(read.csv(F("data/section_df.csv")))
+section_df_premerge <- as_tibble(read.csv(F("data/section_df.csv"))) %>% 
+  rename_with(~ paste("section", .x, sep = "_"), -ID)
 
 curvature_df_premerge <- as_tibble(read.csv(F("data/curvature_df.csv")))
 
 info_df <- as_tibble(read.csv(F("data/PNG_info.csv")))
 
-head(curvature_df_premerge)
-head(section_df_premerge)
-head(info_df)
-
 PNG_df_merged_wide <- left_join(info_df, curvature_df_premerge) %>% 
   left_join(section_df_premerge)
 
-PNG_df_merged_long <- pivot_longer(data = PNG_df_merged_wide, cols = curv_mean:max_sd, names_to = "var") %>%
-  mutate(var = as_factor(var))
+PNG_df_merged_long <- pivot_longer(data = PNG_df_merged_wide, cols = curv_mean:section_max_sd, names_to = "var") %>%
+  mutate(var = as_factor(var)) 
 
 ```
 
@@ -81,7 +78,8 @@ plt_HairVarMean <- PNG_df_merged_long %>%
     plotgrid.args = list(ncol = 2, labels = "auto"),
     pairwise.display = "significant",
     mean.plotting = FALSE,
-    sample.size.label = TRUE
+    sample.size.label = TRUE,
+    messages = FALSE
   )
 
 pltsave_func(plt_HairVarMean, plot_path, width = 16, height = 20)
