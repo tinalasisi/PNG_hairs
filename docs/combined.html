@@ -399,7 +399,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Combined Phenotype data</h1>
 <h4 class="author">Tina Lasisi</h4>
-<h4 class="date">2020-12-21 22:27:44</h4>
+<h4 class="date">2020-12-21 22:37:13</h4>
 
 </div>
 
@@ -515,16 +515,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomtinalasisiPNGhairstree011a4492205096e4f25ac3048979e0b4a2fdcdf1targetblank011a449a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/tinalasisi/PNG_hairs/tree/011a4492205096e4f25ac3048979e0b4a2fdcdf1" target="_blank">011a449</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomtinalasisiPNGhairstreef1309ec20c1c1e99c85cc2070004de6d966b1fe8targetblankf1309eca"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/tinalasisi/PNG_hairs/tree/f1309ec20c1c1e99c85cc2070004de6d966b1fe8" target="_blank">f1309ec</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomtinalasisiPNGhairstree011a4492205096e4f25ac3048979e0b4a2fdcdf1targetblank011a449a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomtinalasisiPNGhairstreef1309ec20c1c1e99c85cc2070004de6d966b1fe8targetblankf1309eca" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/tinalasisi/PNG_hairs/tree/011a4492205096e4f25ac3048979e0b4a2fdcdf1" target="_blank">011a449</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/tinalasisi/PNG_hairs/tree/f1309ec20c1c1e99c85cc2070004de6d966b1fe8" target="_blank">f1309ec</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -577,6 +577,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/tinalasisi/PNG_hairs/blob/f1309ec20c1c1e99c85cc2070004de6d966b1fe8/analysis/combined.Rmd" target="_blank">f1309ec</a>
+</td>
+<td>
+tinalasisi
+</td>
+<td>
+2020-12-21
+</td>
+<td>
+Write csv files
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/tinalasisi/PNG_hairs/a63246f83e32384c6d09c7aeced455fa18cabffe/docs/combined.html" target="_blank">a63246f</a>
+</td>
+<td>
+tinalasisi
+</td>
+<td>
+2020-12-21
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -698,10 +732,16 @@ curvature_df_premerge &lt;- as_tibble(read.csv(F(&quot;data/curvature_df.csv&quo
 info_df &lt;- as_tibble(read.csv(F(&quot;data/PNG_info.csv&quot;)))
 
 PNG_df_merged_wide &lt;- left_join(info_df, curvature_df_premerge) %&gt;% 
-  left_join(section_df_premerge)
+  left_join(section_df_premerge) 
+
+PNG_df_merged_wide %&gt;% 
+  write.csv(&quot;data/combined_df_wide.csv&quot;, row.names = FALSE)
 
 PNG_df_merged_long &lt;- pivot_longer(data = PNG_df_merged_wide, cols = curv_mean:section_max_sd, names_to = &quot;var&quot;) %&gt;%
-  mutate(var = as_factor(var)) </code></pre>
+  mutate(var = as_factor(var)) 
+
+PNG_df_merged_long %&gt;% 
+  write.csv(&quot;data/combined_df_long.csv&quot;, row.names = FALSE)</code></pre>
 </div>
 <div id="exploratory-data-analysis" class="section level1">
 <h1>Exploratory data analysis</h1>
@@ -741,6 +781,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/tinalasisi/PNG_hairs/blob/a63246f83e32384c6d09c7aeced455fa18cabffe/docs/figure/combined.Rmd/plt_HairVarMean-1.png" target="_blank">a63246f</a>
+</td>
+<td>
+tinalasisi
+</td>
+<td>
+2020-12-21
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/tinalasisi/PNG_hairs/blob/a50cb765efa7747482697ddebc972d0b5e4d183c/docs/figure/combined.Rmd/plt_HairVarMean-1.png" target="_blank">a50cb76</a>
@@ -791,6 +842,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/tinalasisi/PNG_hairs/blob/a63246f83e32384c6d09c7aeced455fa18cabffe/docs/figure/combined.Rmd/plt_HairVarMedian-1.png" target="_blank">a63246f</a>
+</td>
+<td>
+tinalasisi
+</td>
+<td>
+2020-12-21
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/tinalasisi/PNG_hairs/blob/a50cb765efa7747482697ddebc972d0b5e4d183c/docs/figure/combined.Rmd/plt_HairVarMedian-1.png" target="_blank">a50cb76</a>
