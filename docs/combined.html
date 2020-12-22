@@ -12,7 +12,7 @@
 <meta name="author" content="Tina Lasisi" />
 
 
-<title>Processing raw section images</title>
+<title>Combined Phenotype data</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -391,16 +391,16 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Processing raw section images</h1>
+<h1 class="title toc-ignore">Combined Phenotype data</h1>
 <h4 class="author">Tina Lasisi</h4>
-<h4 class="date">2020-12-21 21:50:21</h4>
+<h4 class="date">2020-12-21 21:49:23</h4>
 
 </div>
 
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -409,7 +409,7 @@ div.tocify {
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -421,7 +421,7 @@ div.tocify {
 <strong>Last updated:</strong> 2020-12-21
 </p>
 <p>
-<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
 </p>
 <p>
 <strong>Knit directory:</strong> <code>PNG_hairs/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
@@ -433,7 +433,7 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <hr>
 </div>
 <div id="checks" class="tab-pane fade">
-<div class="panel-group" id="workflowr-checks">
+<div id="workflowr-checks" class="panel-group">
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
@@ -497,36 +497,12 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongabsolute"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>File paths:</strong> absolute </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongrelative"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>File paths:</strong> relative </a>
 </p>
 </div>
-<div id="strongFilepathsstrongabsolute" class="panel-collapse collapse">
+<div id="strongFilepathsstrongrelative" class="panel-collapse collapse">
 <div class="panel-body">
-<p>
-Using absolute paths to the files within your workflowr project makes it difficult for you and others to run your code on a different machine. Change the absolute path(s) below to the suggested relative path(s) to make your code more reproducible.
-</p>
-<table class="table table-condensed table-hover">
-<thead>
-<tr>
-<th style="text-align:left;">
-absolute
-</th>
-<th style="text-align:left;">
-relative
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/
-</td>
-<td style="text-align:left;">
-data
-</td>
-</tr>
-</tbody>
-</table>
+<p>Great job! Using relative paths to the files within your workflowr project makes it easier to run your code on other machines.</p>
 </div>
 </div>
 </div>
@@ -583,7 +559,7 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/section.Rmd</code>) and HTML (<code>docs/section.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/combined.Rmd</code>) and HTML (<code>docs/combined.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -612,7 +588,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/tinalasisi/PNG_hairs/blob/cb51478f3fb0ae4bb77bb5780dc8207335196553/analysis/section.Rmd" target="_blank">cb51478</a>
+<a href="https://github.com/tinalasisi/PNG_hairs/blob/cb51478f3fb0ae4bb77bb5780dc8207335196553/analysis/combined.Rmd" target="_blank">cb51478</a>
 </td>
 <td>
 tinalasisi
@@ -624,57 +600,6 @@ tinalasisi
 Initial commit
 </td>
 </tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/tinalasisi/PNG_hairs/92a7879718a4b51ef64abfd0de56f3ed392a2bbe/docs/section.html" target="_blank">92a7879</a>
-</td>
-<td>
-tinalasisi
-</td>
-<td>
-2020-12-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/tinalasisi/PNG_hairs/11cb2b8122d2eb89cc626716e6d95057574a34c9/docs/section.html" target="_blank">11cb2b8</a>
-</td>
-<td>
-tinalasisi
-</td>
-<td>
-2020-12-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/tinalasisi/PNG_hairs/blob/70371d0ec2da15a8f086abb14f5ee0131fe9ea47/analysis/section.Rmd" target="_blank">70371d0</a>
-</td>
-<td>
-tinalasisi
-</td>
-<td>
-2020-12-14
-</td>
-<td>
-wflow_publish("analysis/*")
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -682,81 +607,84 @@ wflow_publish("analysis/*")
 </div>
 </div>
 </div>
-<p>This documents the entire processing pipeline from raw cross-sectional image to parameter estimation.</p>
-<pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
-<pre><code>✓ ggplot2 3.3.2     ✓ purrr   0.3.4
-✓ tibble  3.0.4     ✓ dplyr   1.0.2
-✓ tidyr   1.1.2     ✓ stringr 1.4.0
-✓ readr   1.4.0     ✓ forcats 0.5.0</code></pre>
-<pre><code>── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-x dplyr::filter() masks stats::filter()
-x dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>F = rprojroot::is_rstudio_project$make_fix_file()
+<p>This documents the merge of the phenotype data</p>
+<div id="merging-dataframes" class="section level1">
+<h1>Merging dataframes</h1>
+<p>Here, we merge the participant information with section and curvature data.</p>
+<pre class="r"><code>section_df_premerge &lt;- as_tibble(read.csv(F(&quot;data/section_df.csv&quot;)))
 
-knitr::opts_chunk$set(echo = TRUE, include = TRUE, eval = TRUE, warning = FALSE, message = FALSE)</code></pre>
-<div id="renaming-images" class="section level2">
-<h2>Renaming images</h2>
-<pre class="r"><code># imdir &lt;- &quot;/Users/tpl5158/Box/PNG_section_images&quot;
-#Import CSV file with old and new names as dataframe
-rename_sh &lt;- read.csv(&quot;data/PNG_renaming_sheet.csv&quot;)
+curvature_df_premerge &lt;- as_tibble(read.csv(F(&quot;data/curvature_df.csv&quot;)))
 
-#Add filetype to names
-rename_sh &lt;- rename_sh %&gt;% 
-  mutate(old = paste0(old, &quot;.RW2&quot;),
-         new = paste0(new, &quot;.RW2&quot;))
+info_df &lt;- as_tibble(read.csv(F(&quot;data/PNG_info.csv&quot;)))
 
-# Create vectors with complete file path
-old.names &lt;- as.vector(paste0(&quot;/Users/tpl5158/Box/PNG_section_images/&quot;, rename_sh$location, &quot;/&quot;, rename_sh$old))
-new.names &lt;- as.vector(paste0(&quot;/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/&quot;, &quot;PNG_sect_raw/&quot;, rename_sh$new))
+head(curvature_df_premerge)</code></pre>
+<pre><code># A tibble: 6 x 6
+     ID curv_mean curv_median length_mean length_median hair_count
+  &lt;int&gt;     &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;         &lt;dbl&gt;      &lt;int&gt;
+1     1     0.554       0.574        3.22          2.89         24
+2     2     0.308       0.278        2.71          2.58         28
+3     3     0.714       0.740        4.07          3.79         24
+4     4     0.590       0.614        3.65          3.58         19
+5     5     0.420       0.423        2.87          2.74         26
+6     6     0.546       0.585        3.97          3.70         22</code></pre>
+<pre class="r"><code>head(section_df_premerge)</code></pre>
+<pre><code># A tibble: 6 x 13
+     ID area_median area_mean area_sd eccentricity_me… eccentricity_me…
+  &lt;int&gt;       &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+1     1       5737.     5389.   1571.            0.859            0.827
+2     2       5197.     5303.    254.            0.853            0.819
+3     3       4148.     3886.   1279.            0.781            0.678
+4     4       3251.     3357.    682.            0.813            0.766
+5     5       3841.     3920.    652.            0.816            0.809
+6     6       4483.     4390.    556.            0.764            0.777
+# … with 7 more variables: eccentricity_sd &lt;dbl&gt;, min_median &lt;dbl&gt;,
+#   min_mean &lt;dbl&gt;, min_sd &lt;dbl&gt;, max_median &lt;dbl&gt;, max_mean &lt;dbl&gt;,
+#   max_sd &lt;dbl&gt;</code></pre>
+<pre class="r"><code>head(info_df)</code></pre>
+<pre><code># A tibble: 6 x 6
+     ID Sex    Age   Province          Treatment Pigmentation_analysis
+  &lt;int&gt; &lt;fct&gt;  &lt;fct&gt; &lt;fct&gt;             &lt;fct&gt;     &lt;lgl&gt;                
+1     1 Male   20-30 Enga              None      TRUE                 
+2     2 Male   20-30 Enga              None      FALSE                
+3     3 Female 20-30 Manus             None      TRUE                 
+4     4 Male   20-30 Western Highlands None      TRUE                 
+5     5 Female 20-30 Morobe            None      TRUE                 
+6     6 Female 20-30 East New Britain  None      TRUE                 </code></pre>
+<pre class="r"><code>PNG_df_merged_wide &lt;- left_join(info_df, curvature_df_premerge) %&gt;% 
+  left_join(section_df_premerge)
 
-# check the names
-head(old.names)
-head(new.names)
-# check number of files
-length(old.names)
-length(new.names)
-
-# Use copy to rename the files without altering originals
-file.copy(from = old.names, to = new.names)</code></pre>
+PNG_df_merged_long &lt;- pivot_longer(data = PNG_df_merged_wide, cols = curv_mean:max_sd, names_to = &quot;var&quot;) %&gt;%
+  mutate(var = as_factor(var))</code></pre>
 </div>
-<div id="converting-images-to-grayscale" class="section level2">
-<h2>Converting images to grayscale</h2>
-<p>First go to correct directory.</p>
-<pre class="bash"><code>cd /Users/tpl5158/Box/01_TPL5158/PNG_hairs</code></pre>
-<p>Then activate conda environment.</p>
-<pre class="bash"><code>conda activate fibermorph_env</code></pre>
-<p>Update conda.</p>
-<pre class="bash"><code>conda update --all</code></pre>
-<p>Update fibermorph.</p>
-<pre class="bash"><code>pip install fibermorph -U</code></pre>
-<p>Added 2 samples from previous data acquisition (used B side images only).</p>
-<p>Finally, convert raw images to grayscale</p>
-<pre class="bash"><code>fibermorph --raw2gray -i data/PNG_sect_raw -o data --jobs 4</code></pre>
-<p>When I ran this on Dec 16, 2020 (13:09), it processed 347 files in 4m 26s (1.30 files/s).</p>
-</div>
-<div id="get-cross-sectional-parameters" class="section level2">
-<h2>Get cross-sectional parameters</h2>
-<pre class="bash"><code>fibermorph --section -i data/PNG_sect_tiff -o data --minsize 20 --maxsize 150 --resolution_mu 4.25 --jobs 4</code></pre>
-<p>When I ran this on Dec 16, 2020 (13:28), it processed 347 files in 8m 42s (1.51s/file)</p>
-<p>Then check the file</p>
-<pre class="r"><code>section_df &lt;- read.csv(&quot;data/Dec16_1328_fibermorph_section/summary_section_data.csv&quot;)
-
-head(section_df)</code></pre>
-<pre><code>       ID     area eccentricity      min       max
-1 PNG02_1 7373.343    0.8597938 70.17489 137.42502
-2 PNG02_2 5919.170    0.7566536 70.40574 107.68434
-3 PNG02_3 2684.014    0.8649174 41.53534  82.75387
-4 PNG02_4 6022.976    0.8574255 63.05734 122.53469
-5 PNG02_5 5554.990    0.7445692 68.75524 102.99713
-6 PNG03_1 4780.457    0.8792390 53.93820 113.22492</code></pre>
-<p>If everything is as expected, separate the hairs per ID and calculate summary values and save as spreadsheet</p>
-<pre class="r"><code>section_df_out &lt;- as_tibble(section_df) %&gt;% 
-  separate(col = ID, into = c(&quot;ID&quot;, &quot;hair&quot;)) %&gt;% 
-  mutate(ID = as_factor(sort(as.numeric(str_remove_all(ID, &quot;PNG&quot;))))) %&gt;% 
-  group_by(ID) %&gt;% 
-  summarise(across(where(is.numeric), list(median = median, mean = mean, sd = sd), .names = &quot;{.col}_{.fn}&quot;)) %&gt;% 
-  write.csv(&quot;data/section_df.csv&quot;, row.names = FALSE)</code></pre>
+<div id="exploratory-data-analysis" class="section level1">
+<h1>Exploratory data analysis</h1>
+<p>There appear to be no significant differences among groups in the different hair variables.</p>
+<pre><code>Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).</code></pre>
+<p><img src="figure/combined.Rmd/plt_HairVarMean-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<pre><code>Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).
+Warning:  Number of labels is greater than default palette color count.
+ Try using another color `palette` (and/or `package`).</code></pre>
+<p><img src="figure/combined.Rmd/plt_HairVarMedian-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
@@ -764,7 +692,6 @@ head(section_df)</code></pre>
 </button>
 </p>
 <div id="workflowr-sessioninfo" class="collapse">
-<pre class="r"><code>sessionInfo()</code></pre>
 <pre><code>R version 3.6.3 (2020-02-29)
 Platform: x86_64-apple-darwin15.6.0 (64-bit)
 Running under: macOS Mojave 10.14.6
@@ -780,25 +707,99 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] forcats_0.5.0   stringr_1.4.0   dplyr_1.0.2     purrr_0.3.4    
- [5] readr_1.4.0     tidyr_1.1.2     tibble_3.0.4    ggplot2_3.3.2  
- [9] tidyverse_1.3.0 workflowr_1.6.2
+ [1] paletteer_1.2.0   ggsci_2.9         ggstatsplot_0.6.5 forcats_0.5.0    
+ [5] stringr_1.4.0     dplyr_1.0.2       purrr_0.3.4       readr_1.4.0      
+ [9] tidyr_1.1.2       tibble_3.0.4      ggplot2_3.3.2     tidyverse_1.3.0  
+[13] workflowr_1.6.2  
 
 loaded via a namespace (and not attached):
- [1] tidyselect_1.1.0  xfun_0.19         haven_2.3.1       colorspace_2.0-0 
- [5] vctrs_0.3.4       generics_0.1.0    htmltools_0.5.0   yaml_2.2.1       
- [9] rlang_0.4.8       later_1.1.0.1     pillar_1.4.6      withr_2.3.0      
-[13] glue_1.4.2        DBI_1.1.0         dbplyr_2.0.0      modelr_0.1.8     
-[17] readxl_1.3.1      lifecycle_0.2.0   munsell_0.5.0     gtable_0.3.0     
-[21] cellranger_1.1.0  rvest_0.3.6       evaluate_0.14     knitr_1.30       
-[25] httpuv_1.5.4      fansi_0.4.1       highr_0.8         broom_0.7.2      
-[29] Rcpp_1.0.5        promises_1.1.1    backports_1.2.0   scales_1.1.1     
-[33] jsonlite_1.7.1    fs_1.5.0          hms_0.5.3         digest_0.6.27    
-[37] stringi_1.5.3     rprojroot_2.0.2   grid_3.6.3        cli_2.1.0        
-[41] tools_3.6.3       magrittr_1.5      crayon_1.3.4      whisker_0.4      
-[45] pkgconfig_2.0.3   ellipsis_0.3.1    xml2_1.3.2        reprex_0.3.0     
-[49] lubridate_1.7.9.2 assertthat_0.2.1  rmarkdown_2.5     httr_1.4.2       
-[53] rstudioapi_0.13   R6_2.5.0          git2r_0.27.1      compiler_3.6.3   </code></pre>
+  [1] utf8_1.1.4                tidyselect_1.1.0         
+  [3] lme4_1.1-25               grid_3.6.3               
+  [5] gmp_0.6-1                 munsell_0.5.0            
+  [7] codetools_0.2-16          effectsize_0.4.0         
+  [9] statmod_1.4.35            miniUI_0.1.1.1           
+ [11] withr_2.3.0               Brobdingnag_1.2-6        
+ [13] metaBMA_0.6.5             colorspace_2.0-0         
+ [15] knitr_1.30                rstudioapi_0.13          
+ [17] stats4_3.6.3              DescTools_0.99.38        
+ [19] ipmisc_4.1.0              ggsignif_0.6.0           
+ [21] rcompanion_2.3.26         labeling_0.4.2           
+ [23] git2r_0.27.1              rstan_2.21.2             
+ [25] bbmle_1.0.23.1            farver_2.0.3             
+ [27] bridgesampling_1.0-0      rprojroot_2.0.2          
+ [29] coda_0.19-4               vctrs_0.3.4              
+ [31] generics_0.1.0            TH.data_1.0-10           
+ [33] tidyBF_0.4.0              metafor_2.4-0            
+ [35] xfun_0.19                 BWStest_0.2.2            
+ [37] R6_2.5.0                  BayesFactor_0.9.12-4.2   
+ [39] logspline_2.1.16          reshape_0.8.8            
+ [41] assertthat_0.2.1          promises_1.1.1           
+ [43] scales_1.1.1              multcomp_1.4-15          
+ [45] ggExtra_0.9               rootSolve_1.8.2.1        
+ [47] gtable_0.3.0              multcompView_0.1-8       
+ [49] processx_3.4.4            lmom_2.8                 
+ [51] sandwich_3.0-0            rlang_0.4.8              
+ [53] MatrixModels_0.4-1        EMT_1.1                  
+ [55] zeallot_0.1.0             PMCMRplus_1.7.0          
+ [57] splines_3.6.3             TMB_1.7.18               
+ [59] prismatic_0.2.0           broom_0.7.2              
+ [61] inline_0.3.16             yaml_2.2.1               
+ [63] reshape2_1.4.4            abind_1.4-5              
+ [65] modelr_0.1.8              backports_1.2.0          
+ [67] httpuv_1.5.4              tools_3.6.3              
+ [69] ellipsis_0.3.1            WRS2_1.1-0               
+ [71] ez_4.4-0                  Rcpp_1.0.5               
+ [73] plyr_1.8.6                prettyunits_1.1.1        
+ [75] ps_1.4.0                  pbapply_1.4-3            
+ [77] cowplot_1.1.0             correlation_0.4.0        
+ [79] zoo_1.8-8                 LaplacesDemon_16.1.4     
+ [81] haven_2.3.1               ggrepel_0.8.2            
+ [83] fs_1.5.0                  magrittr_1.5             
+ [85] data.table_1.13.2         openxlsx_4.2.3           
+ [87] lmtest_0.9-38             reprex_0.3.0             
+ [89] mvtnorm_1.1-1             broomExtra_4.1.0         
+ [91] whisker_0.4               matrixStats_0.57.0       
+ [93] hms_0.5.3                 mime_0.9                 
+ [95] evaluate_0.14             xtable_1.8-4             
+ [97] rio_0.5.16                pairwiseComparisons_3.1.0
+ [99] broom.mixed_0.2.6         readxl_1.3.1             
+[101] rstantools_2.1.1          gridExtra_2.3            
+[103] compiler_3.6.3            bdsmatrix_1.3-4          
+[105] V8_3.4.0                  crayon_1.3.4             
+[107] StanHeaders_2.21.0-6      minqa_1.2.4              
+[109] htmltools_0.5.0           mgcv_1.8-31              
+[111] mc2d_0.1-18               later_1.1.0.1            
+[113] libcoin_1.0-6             expm_0.999-5             
+[115] RcppParallel_5.0.2        Exact_2.1                
+[117] lubridate_1.7.9.2         DBI_1.1.0                
+[119] SuppDists_1.1-9.5         kSamples_1.2-9           
+[121] dbplyr_2.0.0              MASS_7.3-51.5            
+[123] boot_1.3-24               Matrix_1.2-18            
+[125] car_3.0-10                cli_2.1.0                
+[127] parallel_3.6.3            insight_0.10.0           
+[129] pkgconfig_2.0.3           metaplus_0.7-11          
+[131] statsExpressions_0.6.0    numDeriv_2016.8-1.1      
+[133] coin_1.3-1                foreign_0.8-75           
+[135] xml2_1.3.2                ggcorrplot_0.1.3         
+[137] rvest_0.3.6               callr_3.5.1              
+[139] digest_0.6.27             parameters_0.9.0         
+[141] fastGHQuad_1.0            rmarkdown_2.5            
+[143] cellranger_1.1.0          nortest_1.0-4            
+[145] gld_2.6.2                 curl_4.3                 
+[147] shiny_1.5.0               gtools_3.8.2             
+[149] modeltools_0.2-23         nloptr_1.2.2.2           
+[151] lifecycle_0.2.0           nlme_3.1-144             
+[153] jsonlite_1.7.1            carData_3.0-4            
+[155] viridisLite_0.3.0         fansi_0.4.1              
+[157] pillar_1.4.6              loo_2.3.1                
+[159] lattice_0.20-38           fastmap_1.0.1            
+[161] httr_1.4.2                pkgbuild_1.1.0           
+[163] survival_3.1-8            glue_1.4.2               
+[165] bayestestR_0.7.5          zip_2.1.1                
+[167] class_7.3-15              stringi_1.5.3            
+[169] performance_0.5.1         rematch2_2.1.2           
+[171] memoise_1.1.0             Rmpfr_0.8-1              
+[173] e1071_1.7-4              </code></pre>
 </div>
 </div>
 

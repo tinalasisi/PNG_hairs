@@ -12,7 +12,7 @@
 <meta name="author" content="Tina Lasisi" />
 
 
-<title>Processing raw section images</title>
+<title>Processing raw curvature images</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -391,9 +391,9 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Processing raw section images</h1>
+<h1 class="title toc-ignore">Processing raw curvature images</h1>
 <h4 class="author">Tina Lasisi</h4>
-<h4 class="date">2020-12-21 21:50:21</h4>
+<h4 class="date">2020-12-21 21:50:10</h4>
 
 </div>
 
@@ -519,10 +519,10 @@ relative
 <tbody>
 <tr>
 <td style="text-align:left;">
-/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/
+/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/PNG_curv_raw/
 </td>
 <td style="text-align:left;">
-data
+data/PNG_curv_raw
 </td>
 </tr>
 </tbody>
@@ -583,7 +583,7 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/section.Rmd</code>) and HTML (<code>docs/section.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/curvature.Rmd</code>) and HTML (<code>docs/curvature.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -612,7 +612,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/tinalasisi/PNG_hairs/blob/cb51478f3fb0ae4bb77bb5780dc8207335196553/analysis/section.Rmd" target="_blank">cb51478</a>
+<a href="https://github.com/tinalasisi/PNG_hairs/blob/cb51478f3fb0ae4bb77bb5780dc8207335196553/analysis/curvature.Rmd" target="_blank">cb51478</a>
 </td>
 <td>
 tinalasisi
@@ -624,57 +624,6 @@ tinalasisi
 Initial commit
 </td>
 </tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/tinalasisi/PNG_hairs/92a7879718a4b51ef64abfd0de56f3ed392a2bbe/docs/section.html" target="_blank">92a7879</a>
-</td>
-<td>
-tinalasisi
-</td>
-<td>
-2020-12-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/tinalasisi/PNG_hairs/11cb2b8122d2eb89cc626716e6d95057574a34c9/docs/section.html" target="_blank">11cb2b8</a>
-</td>
-<td>
-tinalasisi
-</td>
-<td>
-2020-12-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/tinalasisi/PNG_hairs/blob/70371d0ec2da15a8f086abb14f5ee0131fe9ea47/analysis/section.Rmd" target="_blank">70371d0</a>
-</td>
-<td>
-tinalasisi
-</td>
-<td>
-2020-12-14
-</td>
-<td>
-wflow_publish("analysis/*")
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -682,7 +631,7 @@ wflow_publish("analysis/*")
 </div>
 </div>
 </div>
-<p>This documents the entire processing pipeline from raw cross-sectional image to parameter estimation.</p>
+<p>This documents the entire processing pipeline from raw curvature image to parameter estimation.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
 <pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
 <pre><code>✓ ggplot2 3.3.2     ✓ purrr   0.3.4
@@ -697,18 +646,19 @@ x dplyr::lag()    masks stats::lag()</code></pre>
 knitr::opts_chunk$set(echo = TRUE, include = TRUE, eval = TRUE, warning = FALSE, message = FALSE)</code></pre>
 <div id="renaming-images" class="section level2">
 <h2>Renaming images</h2>
-<pre class="r"><code># imdir &lt;- &quot;/Users/tpl5158/Box/PNG_section_images&quot;
+<pre class="r"><code># imdir &lt;- &quot;/Users/tpl5158/Box/PNG_SA_CURVATURE/&quot;
 #Import CSV file with old and new names as dataframe
-rename_sh &lt;- read.csv(&quot;data/PNG_renaming_sheet.csv&quot;)
+rename_sh &lt;- read.csv(F(&quot;data/PNG_curv_renaming_sheet.csv&quot;))
 
 #Add filetype to names
 rename_sh &lt;- rename_sh %&gt;% 
-  mutate(old = paste0(old, &quot;.RW2&quot;),
+  mutate(old = paste0(&quot;P&quot;, old, &quot;.RW2&quot;),
          new = paste0(new, &quot;.RW2&quot;))
 
 # Create vectors with complete file path
-old.names &lt;- as.vector(paste0(&quot;/Users/tpl5158/Box/PNG_section_images/&quot;, rename_sh$location, &quot;/&quot;, rename_sh$old))
-new.names &lt;- as.vector(paste0(&quot;/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/&quot;, &quot;PNG_sect_raw/&quot;, rename_sh$new))
+old.names &lt;- as.vector(paste0(&quot;/Users/tpl5158/Box/PNG_SA_CURVATURE/20200817Dump/&quot;, rename_sh$old))
+dir.create(&quot;/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/PNG_curv_raw/&quot;)
+new.names &lt;- as.vector(paste0(&quot;/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/PNG_curv_raw/&quot;, rename_sh$new))
 
 # check the names
 head(old.names)
@@ -730,33 +680,31 @@ file.copy(from = old.names, to = new.names)</code></pre>
 <pre class="bash"><code>conda update --all</code></pre>
 <p>Update fibermorph.</p>
 <pre class="bash"><code>pip install fibermorph -U</code></pre>
-<p>Added 2 samples from previous data acquisition (used B side images only).</p>
+<p>Added raw images from previous data acquisition.</p>
 <p>Finally, convert raw images to grayscale</p>
-<pre class="bash"><code>fibermorph --raw2gray -i data/PNG_sect_raw -o data --jobs 4</code></pre>
-<p>When I ran this on Dec 16, 2020 (13:09), it processed 347 files in 4m 26s (1.30 files/s).</p>
+<pre class="bash"><code>fibermorph --raw2gray -i data/PNG_curv_raw -o data --jobs 4</code></pre>
+<p>When I ran this on Dec 16, 2020 (13:01), it processed 67 files in 52s (1.27 files/s).</p>
 </div>
-<div id="get-cross-sectional-parameters" class="section level2">
-<h2>Get cross-sectional parameters</h2>
-<pre class="bash"><code>fibermorph --section -i data/PNG_sect_tiff -o data --minsize 20 --maxsize 150 --resolution_mu 4.25 --jobs 4</code></pre>
-<p>When I ran this on Dec 16, 2020 (13:28), it processed 347 files in 8m 42s (1.51s/file)</p>
+<div id="get-cross-sectional-parameters-without-saved-images" class="section level2">
+<h2>Get cross-sectional parameters (without saved images)</h2>
+<pre class="bash"><code>fibermorph --curvature -i data/PNG_curv_tiff -o data --resolution_mm 132  --jobs 4</code></pre>
+<p>When I ran this on Dec 16, 2020 (15:19), it processed 67 files in 20m 35s (18.43s/file)</p>
 <p>Then check the file</p>
-<pre class="r"><code>section_df &lt;- read.csv(&quot;data/Dec16_1328_fibermorph_section/summary_section_data.csv&quot;)
+<pre class="r"><code>curvature_df &lt;- read.csv(&quot;data/Dec16_1519_fibermorph_curvature/curvature_summary_data_Dec16_1540.csv&quot;)
 
-head(section_df)</code></pre>
-<pre><code>       ID     area eccentricity      min       max
-1 PNG02_1 7373.343    0.8597938 70.17489 137.42502
-2 PNG02_2 5919.170    0.7566536 70.40574 107.68434
-3 PNG02_3 2684.014    0.8649174 41.53534  82.75387
-4 PNG02_4 6022.976    0.8574255 63.05734 122.53469
-5 PNG02_5 5554.990    0.7445692 68.75524 102.99713
-6 PNG03_1 4780.457    0.8792390 53.93820 113.22492</code></pre>
-<p>If everything is as expected, separate the hairs per ID and calculate summary values and save as spreadsheet</p>
-<pre class="r"><code>section_df_out &lt;- as_tibble(section_df) %&gt;% 
-  separate(col = ID, into = c(&quot;ID&quot;, &quot;hair&quot;)) %&gt;% 
+head(curvature_df)</code></pre>
+<pre><code>  X     ID curv_mean curv_median length_mean length_median hair_count
+1 0   PNG1 0.5544982   0.5739282    3.222361      2.886786         24
+2 0 PNG105 0.3076779   0.2783998    2.709371      2.580700         28
+3 0  PNG11 0.7142531   0.7398482    4.069187      3.787315         24
+4 0  PNG12 0.5898363   0.6135256    3.648584      3.581137         19
+5 0  PNG13 0.4203857   0.4225164    2.874352      2.737925         26
+6 0  PNG14 0.5463775   0.5854412    3.974747      3.696817         22</code></pre>
+<p>If everything is as expected, delete unnecessary columns and save.</p>
+<pre class="r"><code>curvature_df_out &lt;- as_tibble(curvature_df) %&gt;% 
+  select(-X) %&gt;% 
   mutate(ID = as_factor(sort(as.numeric(str_remove_all(ID, &quot;PNG&quot;))))) %&gt;% 
-  group_by(ID) %&gt;% 
-  summarise(across(where(is.numeric), list(median = median, mean = mean, sd = sd), .names = &quot;{.col}_{.fn}&quot;)) %&gt;% 
-  write.csv(&quot;data/section_df.csv&quot;, row.names = FALSE)</code></pre>
+  write.csv(&quot;data/curvature_df.csv&quot;, row.names = FALSE)</code></pre>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
