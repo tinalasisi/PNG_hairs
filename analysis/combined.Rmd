@@ -47,10 +47,16 @@ curvature_df_premerge <- as_tibble(read.csv(F("data/curvature_df.csv")))
 info_df <- as_tibble(read.csv(F("data/PNG_info.csv")))
 
 PNG_df_merged_wide <- left_join(info_df, curvature_df_premerge) %>% 
-  left_join(section_df_premerge)
+  left_join(section_df_premerge) 
+
+PNG_df_merged_wide %>% 
+  write.csv("data/combined_df_wide.csv", row.names = FALSE)
 
 PNG_df_merged_long <- pivot_longer(data = PNG_df_merged_wide, cols = curv_mean:section_max_sd, names_to = "var") %>%
   mutate(var = as_factor(var)) 
+
+PNG_df_merged_long %>% 
+  write.csv("data/combined_df_long.csv", row.names = FALSE)
 
 ```
 
