@@ -12,7 +12,9 @@ This research website contains the analyses used on the Papuan hair samples coll
 
 Raw images will be uploaded on Zenodo and linked [here]().
 
-Results of the analysis for cross-sectional data can be found [here](section.html). Results of the analysis for curvature data can be found [here]().
+A summary of the results can be seen [here](combined.html).
+
+Results of the analysis for cross-sectional data can be found [here](section.html). Results of the analysis for curvature data can be found [here](curvature.html).
 
 Image analysis was carried out with the [fibermorph](https://pypi.org/project/fibermorph/) Python package. 
 
