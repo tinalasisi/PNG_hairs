@@ -1,0 +1,1378 @@
+"ID","Sex","Age","Province","Treatment","Pigmentation_analysis","var","value"
+1,"Male","20-30","Enga","None",TRUE,"curv_mean",0.554498223725417
+1,"Male","20-30","Enga","None",TRUE,"curv_median",0.573928236774234
+1,"Male","20-30","Enga","None",TRUE,"length_mean",3.22236125782526
+1,"Male","20-30","Enga","None",TRUE,"length_median",2.88678570191754
+1,"Male","20-30","Enga","None",TRUE,"hair_count",24
+1,"Male","20-30","Enga","None",TRUE,"section_area_median",5737.07958477509
+1,"Male","20-30","Enga","None",TRUE,"section_area_mean",5389.15801614764
+1,"Male","20-30","Enga","None",TRUE,"section_area_sd",1570.69716068015
+1,"Male","20-30","Enga","None",TRUE,"section_eccentricity_median",0.858609677766913
+1,"Male","20-30","Enga","None",TRUE,"section_eccentricity_mean",0.827099760228072
+1,"Male","20-30","Enga","None",TRUE,"section_eccentricity_sd",0.0598517837033257
+1,"Male","20-30","Enga","None",TRUE,"section_min_median",65.9062941687753
+1,"Male","20-30","Enga","None",TRUE,"section_min_mean",61.3111266577579
+1,"Male","20-30","Enga","None",TRUE,"section_min_sd",11.5341605656591
+1,"Male","20-30","Enga","None",TRUE,"section_max_median",110.454630497179
+1,"Male","20-30","Enga","None",TRUE,"section_max_mean",111.103327181722
+1,"Male","20-30","Enga","None",TRUE,"section_max_sd",18.4883755212908
+2,"Male","20-30","Enga","None",FALSE,"curv_mean",0.307677878184478
+2,"Male","20-30","Enga","None",FALSE,"curv_median",0.278399837183187
+2,"Male","20-30","Enga","None",FALSE,"length_mean",2.70937074477805
+2,"Male","20-30","Enga","None",FALSE,"length_median",2.58070039967364
+2,"Male","20-30","Enga","None",FALSE,"hair_count",28
+2,"Male","20-30","Enga","None",FALSE,"section_area_median",5197.12110726644
+2,"Male","20-30","Enga","None",FALSE,"section_area_mean",5302.72110726644
+2,"Male","20-30","Enga","None",FALSE,"section_area_sd",253.807904948432
+2,"Male","20-30","Enga","None",FALSE,"section_eccentricity_median",0.853261417923369
+2,"Male","20-30","Enga","None",FALSE,"section_eccentricity_mean",0.81915677326694
+2,"Male","20-30","Enga","None",FALSE,"section_eccentricity_sd",0.0870916333820631
+2,"Male","20-30","Enga","None",FALSE,"section_min_median",59.0803270983537
+2,"Male","20-30","Enga","None",FALSE,"section_min_mean",62.2386104368736
+2,"Male","20-30","Enga","None",FALSE,"section_min_sd",7.65723189381118
+2,"Male","20-30","Enga","None",FALSE,"section_max_median",113.292820706792
+2,"Male","20-30","Enga","None",FALSE,"section_max_mean",112.415898058258
+2,"Male","20-30","Enga","None",FALSE,"section_max_sd",8.22059266521113
+3,"Female","20-30","Manus","None",TRUE,"curv_mean",0.714253084508939
+3,"Female","20-30","Manus","None",TRUE,"curv_median",0.739848171998491
+3,"Female","20-30","Manus","None",TRUE,"length_mean",4.06918715490509
+3,"Female","20-30","Manus","None",TRUE,"length_median",3.78731545905073
+3,"Female","20-30","Manus","None",TRUE,"hair_count",24
+3,"Female","20-30","Manus","None",TRUE,"section_area_median",4148.48442906574
+3,"Female","20-30","Manus","None",TRUE,"section_area_mean",3886.17301038062
+3,"Female","20-30","Manus","None",TRUE,"section_area_sd",1279.35525242326
+3,"Female","20-30","Manus","None",TRUE,"section_eccentricity_median",0.781031156312607
+3,"Female","20-30","Manus","None",TRUE,"section_eccentricity_mean",0.677954260567995
+3,"Female","20-30","Manus","None",TRUE,"section_eccentricity_sd",0.245864991879129
+3,"Female","20-30","Manus","None",TRUE,"section_min_median",57.5127226397729
+3,"Female","20-30","Manus","None",TRUE,"section_min_mean",56.8574848127613
+3,"Female","20-30","Manus","None",TRUE,"section_min_sd",7.05932778423149
+3,"Female","20-30","Manus","None",TRUE,"section_max_median",91.0022808290099
+3,"Female","20-30","Manus","None",TRUE,"section_max_mean",85.9910478569857
+3,"Female","20-30","Manus","None",TRUE,"section_max_sd",19.850129439238
+4,"Male","20-30","Western Highlands","None",TRUE,"curv_mean",0.589836339425738
+4,"Male","20-30","Western Highlands","None",TRUE,"curv_median",0.613525558427204
+4,"Male","20-30","Western Highlands","None",TRUE,"length_mean",3.64858418782729
+4,"Male","20-30","Western Highlands","None",TRUE,"length_median",3.58113671730905
+4,"Male","20-30","Western Highlands","None",TRUE,"hair_count",19
+4,"Male","20-30","Western Highlands","None",TRUE,"section_area_median",3250.87889273356
+4,"Male","20-30","Western Highlands","None",TRUE,"section_area_mean",3357.25643983083
+4,"Male","20-30","Western Highlands","None",TRUE,"section_area_sd",681.750783590666
+4,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.813225686033948
+4,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.766383624134562
+4,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.0963676922287118
+4,"Male","20-30","Western Highlands","None",TRUE,"section_min_median",51.7689093908343
+4,"Male","20-30","Western Highlands","None",TRUE,"section_min_mean",51.4757712525779
+4,"Male","20-30","Western Highlands","None",TRUE,"section_min_sd",4.45459998245576
+4,"Male","20-30","Western Highlands","None",TRUE,"section_max_median",85.0776973423106
+4,"Male","20-30","Western Highlands","None",TRUE,"section_max_mean",83.5190396214212
+4,"Male","20-30","Western Highlands","None",TRUE,"section_max_sd",13.2142166465502
+5,"Female","20-30","Morobe","None",TRUE,"curv_mean",0.420385707655383
+5,"Female","20-30","Morobe","None",TRUE,"curv_median",0.422516426017097
+5,"Female","20-30","Morobe","None",TRUE,"length_mean",2.87435188755249
+5,"Female","20-30","Morobe","None",TRUE,"length_median",2.73792461863471
+5,"Female","20-30","Morobe","None",TRUE,"hair_count",26
+5,"Female","20-30","Morobe","None",TRUE,"section_area_median",3840.99653979239
+5,"Female","20-30","Morobe","None",TRUE,"section_area_mean",3919.8892733564
+5,"Female","20-30","Morobe","None",TRUE,"section_area_sd",652.096033282771
+5,"Female","20-30","Morobe","None",TRUE,"section_eccentricity_median",0.815762054846168
+5,"Female","20-30","Morobe","None",TRUE,"section_eccentricity_mean",0.809283622657352
+5,"Female","20-30","Morobe","None",TRUE,"section_eccentricity_sd",0.0261809567531507
+5,"Female","20-30","Morobe","None",TRUE,"section_min_median",53.5641042203646
+5,"Female","20-30","Morobe","None",TRUE,"section_min_mean",54.1496612482043
+5,"Female","20-30","Morobe","None",TRUE,"section_min_sd",5.10931648727377
+5,"Female","20-30","Morobe","None",TRUE,"section_max_median",90.2789634585578
+5,"Female","20-30","Morobe","None",TRUE,"section_max_mean",92.395180088071
+5,"Female","20-30","Morobe","None",TRUE,"section_max_sd",7.15047053351013
+6,"Female","20-30","East New Britain","None",TRUE,"curv_mean",0.54637754736569
+6,"Female","20-30","East New Britain","None",TRUE,"curv_median",0.585441238249103
+6,"Female","20-30","East New Britain","None",TRUE,"length_mean",3.97474675023906
+6,"Female","20-30","East New Britain","None",TRUE,"length_median",3.6968166517253
+6,"Female","20-30","East New Britain","None",TRUE,"hair_count",22
+6,"Female","20-30","East New Britain","None",TRUE,"section_area_median",4482.76816608997
+6,"Female","20-30","East New Britain","None",TRUE,"section_area_mean",4390.42214532872
+6,"Female","20-30","East New Britain","None",TRUE,"section_area_sd",555.507880764448
+6,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_median",0.763625095424878
+6,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_mean",0.777104172041101
+6,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_sd",0.0431095876561639
+6,"Female","20-30","East New Britain","None",TRUE,"section_min_median",60.8480630648305
+6,"Female","20-30","East New Britain","None",TRUE,"section_min_mean",59.1391206765022
+6,"Female","20-30","East New Britain","None",TRUE,"section_min_sd",3.75444856275188
+6,"Female","20-30","East New Britain","None",TRUE,"section_max_median",94.8668021307741
+6,"Female","20-30","East New Britain","None",TRUE,"section_max_mean",94.8747239108958
+6,"Female","20-30","East New Britain","None",TRUE,"section_max_sd",8.42501358183144
+7,"Female","20-30","Bougainville","None",TRUE,"curv_mean",0.424859957132152
+7,"Female","20-30","Bougainville","None",TRUE,"curv_median",0.453988341939121
+7,"Female","20-30","Bougainville","None",TRUE,"length_mean",3.88374673169898
+7,"Female","20-30","Bougainville","None",TRUE,"length_median",3.98429092145883
+7,"Female","20-30","Bougainville","None",TRUE,"hair_count",21
+7,"Female","20-30","Bougainville","None",TRUE,"section_area_median",5211.34948096886
+7,"Female","20-30","Bougainville","None",TRUE,"section_area_mean",4962.8678200692
+7,"Female","20-30","Bougainville","None",TRUE,"section_area_sd",723.969637620864
+7,"Female","20-30","Bougainville","None",TRUE,"section_eccentricity_median",0.784954523246893
+7,"Female","20-30","Bougainville","None",TRUE,"section_eccentricity_mean",0.78578794701852
+7,"Female","20-30","Bougainville","None",TRUE,"section_eccentricity_sd",0.0130558048753397
+7,"Female","20-30","Bougainville","None",TRUE,"section_min_median",64.3352314060587
+7,"Female","20-30","Bougainville","None",TRUE,"section_min_mean",62.4967326529513
+7,"Female","20-30","Bougainville","None",TRUE,"section_min_sd",5.23453135809303
+7,"Female","20-30","Bougainville","None",TRUE,"section_max_median",103.367937924226
+7,"Female","20-30","Bougainville","None",TRUE,"section_max_mean",101.035360991867
+7,"Female","20-30","Bougainville","None",TRUE,"section_max_sd",7.19496086692702
+8,"Female","20-30","East New Britain","None",TRUE,"curv_mean",0.470984196211593
+8,"Female","20-30","East New Britain","None",TRUE,"curv_median",0.457660134077551
+8,"Female","20-30","East New Britain","None",TRUE,"length_mean",3.60726805230917
+8,"Female","20-30","East New Britain","None",TRUE,"length_median",3.49437377861263
+8,"Female","20-30","East New Britain","None",TRUE,"hair_count",31
+8,"Female","20-30","East New Britain","None",TRUE,"section_area_median",4030.94809688581
+8,"Female","20-30","East New Britain","None",TRUE,"section_area_mean",3756.14671280277
+8,"Female","20-30","East New Britain","None",TRUE,"section_area_sd",675.353291171885
+8,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_median",0.782388346301108
+8,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_mean",0.776761927090609
+8,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_sd",0.074967098664916
+8,"Female","20-30","East New Britain","None",TRUE,"section_min_median",54.3327454934261
+8,"Female","20-30","East New Britain","None",TRUE,"section_min_mean",54.1090720282221
+8,"Female","20-30","East New Britain","None",TRUE,"section_min_sd",3.05642752743212
+8,"Female","20-30","East New Britain","None",TRUE,"section_max_median",90.9321587742827
+8,"Female","20-30","East New Britain","None",TRUE,"section_max_mean",88.6877774141152
+8,"Female","20-30","East New Britain","None",TRUE,"section_max_sd",13.8204242763436
+9,"Female","20-30","Morobe","None",TRUE,"curv_mean",0.377152865681579
+9,"Female","20-30","Morobe","None",TRUE,"curv_median",0.414685922853477
+9,"Female","20-30","Morobe","None",TRUE,"length_mean",4.07324103931334
+9,"Female","20-30","Morobe","None",TRUE,"length_median",3.67554219838023
+9,"Female","20-30","Morobe","None",TRUE,"hair_count",22
+9,"Female","20-30","Morobe","None",TRUE,"section_area_median",4812.98269896194
+9,"Female","20-30","Morobe","None",TRUE,"section_area_mean",4716.21314878893
+9,"Female","20-30","Morobe","None",TRUE,"section_area_sd",1243.24595583153
+9,"Female","20-30","Morobe","None",TRUE,"section_eccentricity_median",0.796243819123302
+9,"Female","20-30","Morobe","None",TRUE,"section_eccentricity_mean",0.804233460062855
+9,"Female","20-30","Morobe","None",TRUE,"section_eccentricity_sd",0.0370553203907267
+9,"Female","20-30","Morobe","None",TRUE,"section_min_median",60.068001228699
+9,"Female","20-30","Morobe","None",TRUE,"section_min_mean",59.293513993372
+9,"Female","20-30","Morobe","None",TRUE,"section_min_sd",8.6520422042445
+9,"Female","20-30","Morobe","None",TRUE,"section_max_median",107.87906115516
+9,"Female","20-30","Morobe","None",TRUE,"section_max_mean",100.660217037773
+9,"Female","20-30","Morobe","None",TRUE,"section_max_sd",14.4771607153213
+11,"Male","20-30","Western Highlands","None",FALSE,"curv_mean",0.560316121211191
+11,"Male","20-30","Western Highlands","None",FALSE,"curv_median",0.567070945172036
+11,"Male","20-30","Western Highlands","None",FALSE,"length_mean",3.47278236680556
+11,"Male","20-30","Western Highlands","None",FALSE,"length_median",3.19171594208716
+11,"Male","20-30","Western Highlands","None",FALSE,"hair_count",15
+11,"Male","20-30","Western Highlands","None",FALSE,"section_area_median",2821.20415224913
+11,"Male","20-30","Western Highlands","None",FALSE,"section_area_mean",3360.14394463668
+11,"Male","20-30","Western Highlands","None",FALSE,"section_area_sd",1186.80863646338
+11,"Male","20-30","Western Highlands","None",FALSE,"section_eccentricity_median",0.80018997654068
+11,"Male","20-30","Western Highlands","None",FALSE,"section_eccentricity_mean",0.788224428242826
+11,"Male","20-30","Western Highlands","None",FALSE,"section_eccentricity_sd",0.0426682827583952
+11,"Male","20-30","Western Highlands","None",FALSE,"section_min_median",45.3036934232078
+11,"Male","20-30","Western Highlands","None",FALSE,"section_min_mean",50.5800949560909
+11,"Male","20-30","Western Highlands","None",FALSE,"section_min_sd",7.94930535569146
+11,"Male","20-30","Western Highlands","None",FALSE,"section_max_median",80.4354065183869
+11,"Male","20-30","Western Highlands","None",FALSE,"section_max_mean",83.2548558919438
+11,"Male","20-30","Western Highlands","None",FALSE,"section_max_sd",15.9056264858163
+12,"Male","20-30","Jiwaka","None",FALSE,"curv_mean",0.465644292633877
+12,"Male","20-30","Jiwaka","None",FALSE,"curv_median",0.522437808639635
+12,"Male","20-30","Jiwaka","None",FALSE,"length_mean",3.87500936893854
+12,"Male","20-30","Jiwaka","None",FALSE,"length_median",3.85094176639695
+12,"Male","20-30","Jiwaka","None",FALSE,"hair_count",19
+12,"Male","20-30","Jiwaka","None",FALSE,"section_area_median",2264.96885813149
+12,"Male","20-30","Jiwaka","None",FALSE,"section_area_mean",2617.5446366782
+12,"Male","20-30","Jiwaka","None",FALSE,"section_area_sd",1327.04879573191
+12,"Male","20-30","Jiwaka","None",FALSE,"section_eccentricity_median",0.813459074528643
+12,"Male","20-30","Jiwaka","None",FALSE,"section_eccentricity_mean",0.748623338686102
+12,"Male","20-30","Jiwaka","None",FALSE,"section_eccentricity_sd",0.119003092980091
+12,"Male","20-30","Jiwaka","None",FALSE,"section_min_median",39.8132380044969
+12,"Male","20-30","Jiwaka","None",FALSE,"section_min_mean",44.8398546093218
+12,"Male","20-30","Jiwaka","None",FALSE,"section_min_sd",9.11886897472297
+12,"Male","20-30","Jiwaka","None",FALSE,"section_max_median",67.8669910933235
+12,"Male","20-30","Jiwaka","None",FALSE,"section_max_mean",71.8081485571256
+12,"Male","20-30","Jiwaka","None",FALSE,"section_max_sd",21.6840315258761
+13,"Male","20-30","Western Highlands","None",TRUE,"curv_mean",0.525071145974305
+13,"Male","20-30","Western Highlands","None",TRUE,"curv_median",0.531045183723023
+13,"Male","20-30","Western Highlands","None",TRUE,"length_mean",4.50157415653281
+13,"Male","20-30","Western Highlands","None",TRUE,"length_median",4.04739702320426
+13,"Male","20-30","Western Highlands","None",TRUE,"hair_count",23
+13,"Male","20-30","Western Highlands","None",TRUE,"section_area_median",5163.07266435986
+13,"Male","20-30","Western Highlands","None",TRUE,"section_area_mean",4682.12041522491
+13,"Male","20-30","Western Highlands","None",TRUE,"section_area_sd",915.510742261591
+13,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.754595393714726
+13,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.706928544453218
+13,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.12509077822345
+13,"Male","20-30","Western Highlands","None",TRUE,"section_min_median",65.5238098636388
+13,"Male","20-30","Western Highlands","None",TRUE,"section_min_mean",64.1599699561055
+13,"Male","20-30","Western Highlands","None",TRUE,"section_min_sd",10.5232551653401
+13,"Male","20-30","Western Highlands","None",TRUE,"section_max_median",94.7793913982194
+13,"Male","20-30","Western Highlands","None",TRUE,"section_max_mean",92.7908529992171
+13,"Male","20-30","Western Highlands","None",TRUE,"section_max_sd",6.99103071614072
+14,"Male","20-30","Western Highlands","None",TRUE,"curv_mean",0.364629770197762
+14,"Male","20-30","Western Highlands","None",TRUE,"curv_median",0.371817810427232
+14,"Male","20-30","Western Highlands","None",TRUE,"length_mean",3.53000585712379
+14,"Male","20-30","Western Highlands","None",TRUE,"length_median",3.33862226029268
+14,"Male","20-30","Western Highlands","None",TRUE,"hair_count",17
+14,"Male","20-30","Western Highlands","None",TRUE,"section_area_median",4042.46366782007
+14,"Male","20-30","Western Highlands","None",TRUE,"section_area_mean",3938.51349480969
+14,"Male","20-30","Western Highlands","None",TRUE,"section_area_sd",613.229840972161
+14,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.691588199842258
+14,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.704226948718237
+14,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.0995577927055603
+14,"Male","20-30","Western Highlands","None",TRUE,"section_min_median",58.0655886112006
+14,"Male","20-30","Western Highlands","None",TRUE,"section_min_mean",58.8769335173402
+14,"Male","20-30","Western Highlands","None",TRUE,"section_min_sd",3.14053851168342
+14,"Male","20-30","Western Highlands","None",TRUE,"section_max_median",80.777556647565
+14,"Male","20-30","Western Highlands","None",TRUE,"section_max_mean",85.7060330936285
+14,"Male","20-30","Western Highlands","None",TRUE,"section_max_sd",12.7174058123327
+19,"Male","20-30","Southern Highlands","None",TRUE,"curv_mean",0.310048813954106
+19,"Male","20-30","Southern Highlands","None",TRUE,"curv_median",0.371875390243082
+19,"Male","20-30","Southern Highlands","None",TRUE,"length_mean",4.453356663582
+19,"Male","20-30","Southern Highlands","None",TRUE,"length_median",4.22696665715563
+19,"Male","20-30","Southern Highlands","None",TRUE,"hair_count",20
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_area_median",4552.80276816609
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_area_mean",4133.25951557093
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_area_sd",1439.53078698415
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_eccentricity_median",0.74974449123103
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_eccentricity_mean",0.749243865966956
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_eccentricity_sd",0.0440536159471899
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_min_median",61.9909863527886
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_min_mean",58.1084024577133
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_min_sd",10.3669368054024
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_max_median",93.6805444351576
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_max_mean",88.721453857551
+19,"Male","20-30","Southern Highlands","None",TRUE,"section_max_sd",17.6589365636896
+20,"Male","20-30","Western Highlands","None",TRUE,"curv_mean",0.297939272550676
+20,"Male","20-30","Western Highlands","None",TRUE,"curv_median",0.295148420347845
+20,"Male","20-30","Western Highlands","None",TRUE,"length_mean",3.70572950273789
+20,"Male","20-30","Western Highlands","None",TRUE,"length_median",3.72389252675307
+20,"Male","20-30","Western Highlands","None",TRUE,"hair_count",17
+20,"Male","20-30","Western Highlands","None",TRUE,"section_area_median",4566.47750865052
+20,"Male","20-30","Western Highlands","None",TRUE,"section_area_mean",4229.14878892734
+20,"Male","20-30","Western Highlands","None",TRUE,"section_area_sd",642.01314465589
+20,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.745211271391678
+20,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.633507244218222
+20,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.229114762624572
+20,"Male","20-30","Western Highlands","None",TRUE,"section_min_median",63.5957391565447
+20,"Male","20-30","Western Highlands","None",TRUE,"section_min_mean",62.8792451304629
+20,"Male","20-30","Western Highlands","None",TRUE,"section_min_sd",9.60071272658571
+20,"Male","20-30","Western Highlands","None",TRUE,"section_max_median",86.7768557832125
+20,"Male","20-30","Western Highlands","None",TRUE,"section_max_mean",86.1937534892669
+20,"Male","20-30","Western Highlands","None",TRUE,"section_max_sd",6.74344133869832
+21,"Male","30-40","East Sepik","None",TRUE,"curv_mean",0.262590308862507
+21,"Male","30-40","East Sepik","None",TRUE,"curv_median",0.326261325916483
+21,"Male","30-40","East Sepik","None",TRUE,"length_mean",3.44937488941428
+21,"Male","30-40","East Sepik","None",TRUE,"length_median",3.61243144930593
+21,"Male","30-40","East Sepik","None",TRUE,"hair_count",32
+21,"Male","30-40","East Sepik","None",TRUE,"section_area_median",3696.88581314879
+21,"Male","30-40","East Sepik","None",TRUE,"section_area_mean",2839.08650519031
+21,"Male","30-40","East Sepik","None",TRUE,"section_area_sd",1290.12499064748
+21,"Male","30-40","East Sepik","None",TRUE,"section_eccentricity_median",0.704045304778079
+21,"Male","30-40","East Sepik","None",TRUE,"section_eccentricity_mean",0.690915744906365
+21,"Male","30-40","East Sepik","None",TRUE,"section_eccentricity_sd",0.069327287755982
+21,"Male","30-40","East Sepik","None",TRUE,"section_min_median",56.8598518553229
+21,"Male","30-40","East Sepik","None",TRUE,"section_min_mean",49.5235096782458
+21,"Male","30-40","East Sepik","None",TRUE,"section_min_sd",11.7160715368652
+21,"Male","30-40","East Sepik","None",TRUE,"section_max_median",80.5300397774081
+21,"Male","30-40","East Sepik","None",TRUE,"section_max_mean",69.8067046788096
+21,"Male","30-40","East Sepik","None",TRUE,"section_max_sd",18.8584546763087
+22,"Male","20-30","Gulf","None",TRUE,"curv_mean",0.297184994465842
+22,"Male","20-30","Gulf","None",TRUE,"curv_median",0.232867896280585
+22,"Male","20-30","Gulf","None",TRUE,"length_mean",3.51229983829117
+22,"Male","20-30","Gulf","None",TRUE,"length_median",3.45528764703553
+22,"Male","20-30","Gulf","None",TRUE,"hair_count",9
+22,"Male","20-30","Gulf","None",TRUE,"section_area_median",5715.70934256055
+22,"Male","20-30","Gulf","None",TRUE,"section_area_mean",5486.16193771626
+22,"Male","20-30","Gulf","None",TRUE,"section_area_sd",1698.885373997
+22,"Male","20-30","Gulf","None",TRUE,"section_eccentricity_median",0.772146487719281
+22,"Male","20-30","Gulf","None",TRUE,"section_eccentricity_mean",0.749775835907712
+22,"Male","20-30","Gulf","None",TRUE,"section_eccentricity_sd",0.101785513757375
+22,"Male","20-30","Gulf","None",TRUE,"section_min_median",65.6142657031788
+22,"Male","20-30","Gulf","None",TRUE,"section_min_mean",66.5723230296262
+22,"Male","20-30","Gulf","None",TRUE,"section_min_sd",11.6110874118878
+22,"Male","20-30","Gulf","None",TRUE,"section_max_median",94.6448782426424
+22,"Male","20-30","Gulf","None",TRUE,"section_max_mean",103.986479664172
+22,"Male","20-30","Gulf","None",TRUE,"section_max_sd",19.8689434928064
+23,"Male","20-30","Western Highlands","None",TRUE,"curv_mean",0.421146881036025
+23,"Male","20-30","Western Highlands","None",TRUE,"curv_median",0.453026207360224
+23,"Male","20-30","Western Highlands","None",TRUE,"length_mean",3.34300768379416
+23,"Male","20-30","Western Highlands","None",TRUE,"length_median",3.28268780464706
+23,"Male","20-30","Western Highlands","None",TRUE,"hair_count",26
+23,"Male","20-30","Western Highlands","None",TRUE,"section_area_median",3459.04498269896
+23,"Male","20-30","Western Highlands","None",TRUE,"section_area_mean",3368.72525951557
+23,"Male","20-30","Western Highlands","None",TRUE,"section_area_sd",1346.34639544405
+23,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.767081042483423
+23,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.748996555630072
+23,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.101686526107443
+23,"Male","20-30","Western Highlands","None",TRUE,"section_min_median",49.138172302401
+23,"Male","20-30","Western Highlands","None",TRUE,"section_min_mean",52.2996507035385
+23,"Male","20-30","Western Highlands","None",TRUE,"section_min_sd",14.3139613758218
+23,"Male","20-30","Western Highlands","None",TRUE,"section_max_median",86.9908001970396
+23,"Male","20-30","Western Highlands","None",TRUE,"section_max_mean",79.8912512550318
+23,"Male","20-30","Western Highlands","None",TRUE,"section_max_sd",13.7415951479629
+25,"Male","30-40","Enga","None",TRUE,"curv_mean",0.464121442592082
+25,"Male","30-40","Enga","None",TRUE,"curv_median",0.472734381048998
+25,"Male","30-40","Enga","None",TRUE,"length_mean",3.17430335539978
+25,"Male","30-40","Enga","None",TRUE,"length_median",3.15255394457385
+25,"Male","30-40","Enga","None",TRUE,"hair_count",35
+25,"Male","30-40","Enga","None",TRUE,"section_area_median",3567.50173010381
+25,"Male","30-40","Enga","None",TRUE,"section_area_mean",3331.65397923875
+25,"Male","30-40","Enga","None",TRUE,"section_area_sd",384.566834186593
+25,"Male","30-40","Enga","None",TRUE,"section_eccentricity_median",0.800660546751943
+25,"Male","30-40","Enga","None",TRUE,"section_eccentricity_mean",0.803010760802776
+25,"Male","30-40","Enga","None",TRUE,"section_eccentricity_sd",0.0169405491306418
+25,"Male","30-40","Enga","None",TRUE,"section_min_median",51.1091082011174
+25,"Male","30-40","Enga","None",TRUE,"section_min_mean",50.2391440720998
+25,"Male","30-40","Enga","None",TRUE,"section_min_sd",2.60361559527268
+25,"Male","30-40","Enga","None",TRUE,"section_max_median",85.6557866169099
+25,"Male","30-40","Enga","None",TRUE,"section_max_mean",84.5122975474719
+25,"Male","30-40","Enga","None",TRUE,"section_max_sd",6.06756376294175
+27,"Female","20-30","Central Province","None",TRUE,"curv_mean",0.118894022234945
+27,"Female","20-30","Central Province","None",TRUE,"curv_median",0.11375031662022
+27,"Female","20-30","Central Province","None",TRUE,"length_mean",3.23435015567596
+27,"Female","20-30","Central Province","None",TRUE,"length_median",3.1459035878218
+27,"Female","20-30","Central Province","None",TRUE,"hair_count",17
+27,"Female","20-30","Central Province","None",TRUE,"section_area_median",4395.84775086505
+27,"Female","20-30","Central Province","None",TRUE,"section_area_mean",4311.87266435986
+27,"Female","20-30","Central Province","None",TRUE,"section_area_sd",1101.85248709079
+27,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_median",0.746013238868149
+27,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_mean",0.76112382939392
+27,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_sd",0.0305462601788886
+27,"Female","20-30","Central Province","None",TRUE,"section_min_median",61.1600323040079
+27,"Female","20-30","Central Province","None",TRUE,"section_min_mean",59.4248893307918
+27,"Female","20-30","Central Province","None",TRUE,"section_min_sd",9.51835055927991
+27,"Female","20-30","Central Province","None",TRUE,"section_max_median",93.7774907149774
+27,"Female","20-30","Central Province","None",TRUE,"section_max_mean",91.4326337406415
+27,"Female","20-30","Central Province","None",TRUE,"section_max_sd",10.6327708908135
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"curv_mean",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"curv_median",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"length_mean",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"length_median",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"hair_count",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_area_median",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_area_mean",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_area_sd",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_eccentricity_median",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_eccentricity_mean",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_eccentricity_sd",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_min_median",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_min_mean",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_min_sd",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_max_median",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_max_mean",NA
+28,"Female","20-30","East Sepik/Milne Bay","Colour/Bleach",FALSE,"section_max_sd",NA
+29,"Female","20-30","Central Province","None",TRUE,"curv_mean",0.160619581035846
+29,"Female","20-30","Central Province","None",TRUE,"curv_median",0.131033459900534
+29,"Female","20-30","Central Province","None",TRUE,"length_mean",2.95507314459159
+29,"Female","20-30","Central Province","None",TRUE,"length_median",2.87865292388243
+29,"Female","20-30","Central Province","None",TRUE,"hair_count",26
+29,"Female","20-30","Central Province","None",TRUE,"section_area_median",3949.01038062284
+29,"Female","20-30","Central Province","None",TRUE,"section_area_mean",3943.35224913495
+29,"Female","20-30","Central Province","None",TRUE,"section_area_sd",496.536936287796
+29,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_median",0.686458496382723
+29,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_mean",0.662926450594758
+29,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_sd",0.0878973031480903
+29,"Female","20-30","Central Province","None",TRUE,"section_min_median",59.559522283405
+29,"Female","20-30","Central Province","None",TRUE,"section_min_mean",60.943742343481
+29,"Female","20-30","Central Province","None",TRUE,"section_min_sd",4.20580791308971
+29,"Female","20-30","Central Province","None",TRUE,"section_max_median",80.7778294499377
+29,"Female","20-30","Central Province","None",TRUE,"section_max_mean",82.4619143539405
+29,"Female","20-30","Central Province","None",TRUE,"section_max_sd",6.81696988942833
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"curv_mean",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"curv_median",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"length_mean",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"length_median",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"hair_count",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_area_median",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_area_mean",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_area_sd",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_eccentricity_median",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_eccentricity_mean",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_eccentricity_sd",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_min_median",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_min_mean",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_min_sd",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_max_median",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_max_mean",NA
+30,"Female","20-30","Milne Bay","Colour/Bleach",FALSE,"section_max_sd",NA
+31,"Female","20-30","Manus","None",TRUE,"curv_mean",0.326660566576168
+31,"Female","20-30","Manus","None",TRUE,"curv_median",0.336211002235596
+31,"Female","20-30","Manus","None",TRUE,"length_mean",3.18941288004024
+31,"Female","20-30","Manus","None",TRUE,"length_median",3.03498286869951
+31,"Female","20-30","Manus","None",TRUE,"hair_count",27
+31,"Female","20-30","Manus","None",TRUE,"section_area_median",3251.59861591696
+31,"Female","20-30","Manus","None",TRUE,"section_area_mean",3271.77301038062
+31,"Female","20-30","Manus","None",TRUE,"section_area_sd",439.445774088912
+31,"Female","20-30","Manus","None",TRUE,"section_eccentricity_median",0.811731121967158
+31,"Female","20-30","Manus","None",TRUE,"section_eccentricity_mean",0.794557429476051
+31,"Female","20-30","Manus","None",TRUE,"section_eccentricity_sd",0.0541526005335917
+31,"Female","20-30","Manus","None",TRUE,"section_min_median",48.5146129799672
+31,"Female","20-30","Manus","None",TRUE,"section_min_mean",50.2351233451617
+31,"Female","20-30","Manus","None",TRUE,"section_min_sd",5.6586414214082
+31,"Female","20-30","Manus","None",TRUE,"section_max_median",83.9731719247961
+31,"Female","20-30","Manus","None",TRUE,"section_max_mean",83.4211268728532
+31,"Female","20-30","Manus","None",TRUE,"section_max_sd",3.86551290230057
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"curv_mean",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"curv_median",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"length_mean",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"length_median",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"hair_count",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_area_median",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_area_mean",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_area_sd",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_eccentricity_median",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_eccentricity_mean",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_eccentricity_sd",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_min_median",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_min_mean",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_min_sd",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_max_median",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_max_mean",NA
+32,"Female","20-30","New Ireland","Mega Growth Relaxer",TRUE,"section_max_sd",NA
+33,"Male","20-30","Southern Highlands","None",TRUE,"curv_mean",0.657113756212754
+33,"Male","20-30","Southern Highlands","None",TRUE,"curv_median",0.65983236433057
+33,"Male","20-30","Southern Highlands","None",TRUE,"length_mean",4.95066200350627
+33,"Male","20-30","Southern Highlands","None",TRUE,"length_median",5.09258350982615
+33,"Male","20-30","Southern Highlands","None",TRUE,"hair_count",8
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_area_median",3536.276816609
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_area_mean",4306.96747404844
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_area_sd",1586.01613036446
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_eccentricity_median",0.790146389586248
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_eccentricity_mean",0.787912642625466
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_eccentricity_sd",0.0368873560683805
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_min_median",52.2289857603526
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_min_mean",57.6546827627737
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_min_sd",12.685996687363
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_max_median",89.1488294916985
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_max_mean",93.258239477975
+33,"Male","20-30","Southern Highlands","None",TRUE,"section_max_sd",14.0732168232035
+34,"Female","20-30","Madang","None",TRUE,"curv_mean",0.249638382638402
+34,"Female","20-30","Madang","None",TRUE,"curv_median",0.233076915536812
+34,"Female","20-30","Madang","None",TRUE,"length_mean",3.22820067494729
+34,"Female","20-30","Madang","None",TRUE,"length_median",2.8747219104305
+34,"Female","20-30","Madang","None",TRUE,"hair_count",19
+34,"Female","20-30","Madang","None",TRUE,"section_area_median",3497.96539792388
+34,"Female","20-30","Madang","None",TRUE,"section_area_mean",3855.78961937716
+34,"Female","20-30","Madang","None",TRUE,"section_area_sd",736.489381871565
+34,"Female","20-30","Madang","None",TRUE,"section_eccentricity_median",0.740535241919296
+34,"Female","20-30","Madang","None",TRUE,"section_eccentricity_mean",0.732126787947588
+34,"Female","20-30","Madang","None",TRUE,"section_eccentricity_sd",0.0353287651395363
+34,"Female","20-30","Madang","None",TRUE,"section_min_median",54.903627925296
+34,"Female","20-30","Madang","None",TRUE,"section_min_mean",57.741830971014
+34,"Female","20-30","Madang","None",TRUE,"section_min_sd",6.1517269514658
+34,"Female","20-30","Madang","None",TRUE,"section_max_median",84.7037404158048
+34,"Female","20-30","Madang","None",TRUE,"section_max_mean",84.9790861389009
+34,"Female","20-30","Madang","None",TRUE,"section_max_sd",7.49319628189608
+36,"Female","20-30","Eastern Highlands","None",TRUE,"curv_mean",0.39907947857521
+36,"Female","20-30","Eastern Highlands","None",TRUE,"curv_median",0.384554213223572
+36,"Female","20-30","Eastern Highlands","None",TRUE,"length_mean",3.54635267706815
+36,"Female","20-30","Eastern Highlands","None",TRUE,"length_median",3.42893739999455
+36,"Female","20-30","Eastern Highlands","None",TRUE,"hair_count",18
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_area_median",4817.93771626298
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_area_mean",4951.68442906574
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_area_sd",669.050553102864
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_eccentricity_median",0.791014051577673
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_eccentricity_mean",0.788205175883537
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_eccentricity_sd",0.0206857016892876
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_min_median",62.8870179667205
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_min_mean",62.2638613819589
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_min_sd",4.73237290873489
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_max_median",100.182666108247
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_max_mean",101.30585423404
+36,"Female","20-30","Eastern Highlands","None",TRUE,"section_max_sd",6.82483232987274
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"curv_mean",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"curv_median",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"length_mean",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"length_median",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"hair_count",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_area_median",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_area_mean",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_area_sd",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_eccentricity_median",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_eccentricity_mean",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_eccentricity_sd",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_min_median",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_min_mean",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_min_sd",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_max_median",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_max_mean",NA
+37,"Female","20-30","Bougainville","Mega Growth Relaxer",FALSE,"section_max_sd",NA
+38,"Female","20-30","Central Province","None",TRUE,"curv_mean",0.143032483730823
+38,"Female","20-30","Central Province","None",TRUE,"curv_median",0.128194049356104
+38,"Female","20-30","Central Province","None",TRUE,"length_mean",3.11395233256399
+38,"Female","20-30","Central Province","None",TRUE,"length_median",3.28736943502032
+38,"Female","20-30","Central Province","None",TRUE,"hair_count",22
+38,"Female","20-30","Central Province","None",TRUE,"section_area_median",3404.78892733564
+38,"Female","20-30","Central Province","None",TRUE,"section_area_mean",3349.33702422145
+38,"Female","20-30","Central Province","None",TRUE,"section_area_sd",1107.04720085663
+38,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_median",0.748701539450675
+38,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_mean",0.689893020552684
+38,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_sd",0.164678664272698
+38,"Female","20-30","Central Province","None",TRUE,"section_min_median",51.0077895158984
+38,"Female","20-30","Central Province","None",TRUE,"section_min_mean",53.3621845868229
+38,"Female","20-30","Central Province","None",TRUE,"section_min_sd",6.37873368561658
+38,"Female","20-30","Central Province","None",TRUE,"section_max_median",82.5170618360829
+38,"Female","20-30","Central Province","None",TRUE,"section_max_mean",78.7676650373768
+38,"Female","20-30","Central Province","None",TRUE,"section_max_sd",18.4403935021506
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"curv_mean",0.553690979937077
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"curv_median",0.55623091770925
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"length_mean",3.38770748793013
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"length_median",3.52719819814816
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"hair_count",26
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_area_median",3722.07612456747
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_area_mean",3776.12179930796
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_area_sd",988.715625874454
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_eccentricity_median",0.765028776851367
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_eccentricity_mean",0.773364218699047
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_eccentricity_sd",0.0442805519685649
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_min_median",55.4916864765994
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_min_mean",54.6306127299798
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_min_sd",7.11234018036037
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_max_median",91.5756195843177
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_max_mean",87.2342502748081
+39,"Female","20-30","East Sepik/Central Province","None",FALSE,"section_max_sd",13.6203619333068
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"curv_mean",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"curv_median",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"length_mean",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"length_median",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"hair_count",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_area_median",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_area_mean",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_area_sd",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_eccentricity_median",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_eccentricity_mean",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_eccentricity_sd",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_min_median",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_min_mean",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_min_sd",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_max_median",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_max_mean",NA
+40,"Female","20-30","East New Britain","Mega Growth Relaxer",TRUE,"section_max_sd",NA
+41,"Male","20-30","New Ireland","None",TRUE,"curv_mean",0.472886040440716
+41,"Male","20-30","New Ireland","None",TRUE,"curv_median",0.531752143886991
+41,"Male","20-30","New Ireland","None",TRUE,"length_mean",3.23102628894202
+41,"Male","20-30","New Ireland","None",TRUE,"length_median",3.11860666912351
+41,"Male","20-30","New Ireland","None",TRUE,"hair_count",14
+41,"Male","20-30","New Ireland","None",TRUE,"section_area_median",2764.95501730104
+41,"Male","20-30","New Ireland","None",TRUE,"section_area_mean",2719.16955017301
+41,"Male","20-30","New Ireland","None",TRUE,"section_area_sd",431.737522735993
+41,"Male","20-30","New Ireland","None",TRUE,"section_eccentricity_median",0.774106343441838
+41,"Male","20-30","New Ireland","None",TRUE,"section_eccentricity_mean",0.767524160025432
+41,"Male","20-30","New Ireland","None",TRUE,"section_eccentricity_sd",0.0135372770808433
+41,"Male","20-30","New Ireland","None",TRUE,"section_min_median",47.0797154935261
+41,"Male","20-30","New Ireland","None",TRUE,"section_min_mean",47.0840271244183
+41,"Male","20-30","New Ireland","None",TRUE,"section_min_sd",4.11348150224706
+41,"Male","20-30","New Ireland","None",TRUE,"section_max_median",75.0001291923141
+41,"Male","20-30","New Ireland","None",TRUE,"section_max_mean",73.4358458313478
+41,"Male","20-30","New Ireland","None",TRUE,"section_max_sd",5.42323556529335
+42,"Female","20-30","Oro","None",TRUE,"curv_mean",0.172925012563652
+42,"Female","20-30","Oro","None",TRUE,"curv_median",0.145284957962513
+42,"Female","20-30","Oro","None",TRUE,"length_mean",3.19607874619844
+42,"Female","20-30","Oro","None",TRUE,"length_median",3.11377688871777
+42,"Female","20-30","Oro","None",TRUE,"hair_count",14
+42,"Female","20-30","Oro","None",TRUE,"section_area_median",4484.81660899654
+42,"Female","20-30","Oro","None",TRUE,"section_area_mean",4359.7508650519
+42,"Female","20-30","Oro","None",TRUE,"section_area_sd",843.905446867051
+42,"Female","20-30","Oro","None",TRUE,"section_eccentricity_median",0.770712988699647
+42,"Female","20-30","Oro","None",TRUE,"section_eccentricity_mean",0.758277669112572
+42,"Female","20-30","Oro","None",TRUE,"section_eccentricity_sd",0.0628368498168071
+42,"Female","20-30","Oro","None",TRUE,"section_min_median",61.3426312895639
+42,"Female","20-30","Oro","None",TRUE,"section_min_mean",59.7728619993209
+42,"Female","20-30","Oro","None",TRUE,"section_min_sd",6.69180241670317
+42,"Female","20-30","Oro","None",TRUE,"section_max_median",96.0957297457197
+42,"Female","20-30","Oro","None",TRUE,"section_max_mean",92.7308036682514
+42,"Female","20-30","Oro","None",TRUE,"section_max_sd",9.7835516899285
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"curv_mean",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"curv_median",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"length_mean",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"length_median",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"hair_count",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_area_median",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_area_mean",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_area_sd",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_eccentricity_median",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_eccentricity_mean",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_eccentricity_sd",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_min_median",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_min_mean",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_min_sd",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_max_median",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_max_mean",NA
+43,"Female","20-30","East Sepik","Mega Growth Relaxer",TRUE,"section_max_sd",NA
+44,"Female","20-30","Central Province","None",TRUE,"curv_mean",0.341767802757483
+44,"Female","20-30","Central Province","None",TRUE,"curv_median",0.378846246106624
+44,"Female","20-30","Central Province","None",TRUE,"length_mean",3.02216963060537
+44,"Female","20-30","Central Province","None",TRUE,"length_median",2.76395369788951
+44,"Female","20-30","Central Province","None",TRUE,"hair_count",19
+44,"Female","20-30","Central Province","None",TRUE,"section_area_median",5319.52941176471
+44,"Female","20-30","Central Province","None",TRUE,"section_area_mean",5142.32249134948
+44,"Female","20-30","Central Province","None",TRUE,"section_area_sd",1190.82456173454
+44,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_median",0.813176353814182
+44,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_mean",0.785801704307502
+44,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_sd",0.0611450242711684
+44,"Female","20-30","Central Province","None",TRUE,"section_min_median",64.3013694044598
+44,"Female","20-30","Central Province","None",TRUE,"section_min_mean",63.06545208944
+44,"Female","20-30","Central Province","None",TRUE,"section_min_sd",7.2592937545842
+44,"Female","20-30","Central Province","None",TRUE,"section_max_median",108.226979684549
+44,"Female","20-30","Central Province","None",TRUE,"section_max_mean",103.618341456588
+44,"Female","20-30","Central Province","None",TRUE,"section_max_sd",14.3830599965751
+45,"Male","20-30","Western Highlands","None",TRUE,"curv_mean",0.151676252972962
+45,"Male","20-30","Western Highlands","None",TRUE,"curv_median",0.158808928577751
+45,"Male","20-30","Western Highlands","None",TRUE,"length_mean",3.55364305055418
+45,"Male","20-30","Western Highlands","None",TRUE,"length_median",3.44087894456392
+45,"Male","20-30","Western Highlands","None",TRUE,"hair_count",21
+45,"Male","20-30","Western Highlands","None",TRUE,"section_area_median",2744.1384083045
+45,"Male","20-30","Western Highlands","None",TRUE,"section_area_mean",3086.33910034602
+45,"Male","20-30","Western Highlands","None",TRUE,"section_area_sd",1260.34638190564
+45,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.783004063852094
+45,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.745420554178157
+45,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.100266545792206
+45,"Male","20-30","Western Highlands","None",TRUE,"section_min_median",47.3313582232077
+45,"Male","20-30","Western Highlands","None",TRUE,"section_min_mean",49.6060911921799
+45,"Male","20-30","Western Highlands","None",TRUE,"section_min_sd",9.04522863564505
+45,"Male","20-30","Western Highlands","None",TRUE,"section_max_median",76.2819156046325
+45,"Male","20-30","Western Highlands","None",TRUE,"section_max_mean",77.106198430998
+45,"Male","20-30","Western Highlands","None",TRUE,"section_max_sd",18.7731015462198
+46,"Female","20-30","Western Highlands","None",TRUE,"curv_mean",0.356893739053625
+46,"Female","20-30","Western Highlands","None",TRUE,"curv_median",0.526307626614536
+46,"Female","20-30","Western Highlands","None",TRUE,"length_mean",2.58124241597249
+46,"Female","20-30","Western Highlands","None",TRUE,"length_median",2.61609717880736
+46,"Female","20-30","Western Highlands","None",TRUE,"hair_count",30
+46,"Female","20-30","Western Highlands","None",TRUE,"section_area_median",2822.14532871972
+46,"Female","20-30","Western Highlands","None",TRUE,"section_area_mean",3261.14325259516
+46,"Female","20-30","Western Highlands","None",TRUE,"section_area_sd",1242.31327743554
+46,"Female","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.739055141785369
+46,"Female","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.765878296021752
+46,"Female","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.0687815188825689
+46,"Female","20-30","Western Highlands","None",TRUE,"section_min_median",49.2608618575984
+46,"Female","20-30","Western Highlands","None",TRUE,"section_min_mean",50.2360183052777
+46,"Female","20-30","Western Highlands","None",TRUE,"section_min_sd",6.90652466132367
+46,"Female","20-30","Western Highlands","None",TRUE,"section_max_median",73.1258551132995
+46,"Female","20-30","Western Highlands","None",TRUE,"section_max_mean",81.7005770912424
+46,"Female","20-30","Western Highlands","None",TRUE,"section_max_sd",22.9271321480467
+48,"Female","20-30","Central Province","None",TRUE,"curv_mean",0.345838491219795
+48,"Female","20-30","Central Province","None",TRUE,"curv_median",0.34029128655289
+48,"Female","20-30","Central Province","None",TRUE,"length_mean",3.26684808961253
+48,"Female","20-30","Central Province","None",TRUE,"length_median",3.22975348164729
+48,"Female","20-30","Central Province","None",TRUE,"hair_count",12
+48,"Female","20-30","Central Province","None",TRUE,"section_area_median",4762.85121107266
+48,"Female","20-30","Central Province","None",TRUE,"section_area_mean",4681.5446366782
+48,"Female","20-30","Central Province","None",TRUE,"section_area_sd",930.637677231312
+48,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_median",0.875152389363333
+48,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_mean",0.861191866698035
+48,"Female","20-30","Central Province","None",TRUE,"section_eccentricity_sd",0.0494214833681811
+48,"Female","20-30","Central Province","None",TRUE,"section_min_median",55.7704790660828
+48,"Female","20-30","Central Province","None",TRUE,"section_min_mean",54.7720084144679
+48,"Female","20-30","Central Province","None",TRUE,"section_min_sd",3.16449949138011
+48,"Female","20-30","Central Province","None",TRUE,"section_max_median",114.782952381127
+48,"Female","20-30","Central Province","None",TRUE,"section_max_mean",111.510504621094
+48,"Female","20-30","Central Province","None",TRUE,"section_max_sd",19.8571086978139
+49,"Male","20-30","West New Britain","None",TRUE,"curv_mean",0.394431785904495
+49,"Male","20-30","West New Britain","None",TRUE,"curv_median",0.425775762260352
+49,"Male","20-30","West New Britain","None",TRUE,"length_mean",4.08247579160529
+49,"Male","20-30","West New Britain","None",TRUE,"length_median",3.37643251108226
+49,"Male","20-30","West New Britain","None",TRUE,"hair_count",27
+49,"Male","20-30","West New Britain","None",TRUE,"section_area_median",3488.2491349481
+49,"Male","20-30","West New Britain","None",TRUE,"section_area_mean",3518.17301038062
+49,"Male","20-30","West New Britain","None",TRUE,"section_area_sd",996.487326057028
+49,"Male","20-30","West New Britain","None",TRUE,"section_eccentricity_median",0.819116993907181
+49,"Male","20-30","West New Britain","None",TRUE,"section_eccentricity_mean",0.750800801695317
+49,"Male","20-30","West New Britain","None",TRUE,"section_eccentricity_sd",0.162009296306404
+49,"Male","20-30","West New Britain","None",TRUE,"section_min_median",52.1966474861901
+49,"Male","20-30","West New Britain","None",TRUE,"section_min_mean",52.1373012129953
+49,"Male","20-30","West New Britain","None",TRUE,"section_min_sd",4.8912325146494
+49,"Male","20-30","West New Britain","None",TRUE,"section_max_median",89.7847147476964
+49,"Male","20-30","West New Britain","None",TRUE,"section_max_mean",85.7938617236493
+49,"Male","20-30","West New Britain","None",TRUE,"section_max_sd",19.0016457047553
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"curv_mean",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"curv_median",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"length_mean",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"length_median",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"hair_count",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_area_median",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_area_mean",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_area_sd",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_eccentricity_median",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_eccentricity_mean",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_eccentricity_sd",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_min_median",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_min_mean",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_min_sd",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_max_median",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_max_mean",NA
+50,"Female","20-30","Western Highlands","Mega Growth Relaxer",TRUE,"section_max_sd",NA
+51,"Male","20-30","Enga","None",TRUE,"curv_mean",0.575420640671123
+51,"Male","20-30","Enga","None",TRUE,"curv_median",0.692196422788987
+51,"Male","20-30","Enga","None",TRUE,"length_mean",3.2477519763301
+51,"Male","20-30","Enga","None",TRUE,"length_median",3.20127930508039
+51,"Male","20-30","Enga","None",TRUE,"hair_count",8
+51,"Male","20-30","Enga","None",TRUE,"section_area_median",3737.41176470588
+51,"Male","20-30","Enga","None",TRUE,"section_area_mean",3648.49826989619
+51,"Male","20-30","Enga","None",TRUE,"section_area_sd",667.555840945641
+51,"Male","20-30","Enga","None",TRUE,"section_eccentricity_median",0.791839301808205
+51,"Male","20-30","Enga","None",TRUE,"section_eccentricity_mean",0.792562474789788
+51,"Male","20-30","Enga","None",TRUE,"section_eccentricity_sd",0.0110813567167072
+51,"Male","20-30","Enga","None",TRUE,"section_min_median",53.9734475020694
+51,"Male","20-30","Enga","None",TRUE,"section_min_mean",53.1689277601357
+51,"Male","20-30","Enga","None",TRUE,"section_min_sd",5.58473396182712
+51,"Male","20-30","Enga","None",TRUE,"section_max_median",88.3753734689353
+51,"Male","20-30","Enga","None",TRUE,"section_max_mean",87.1162023736701
+51,"Male","20-30","Enga","None",TRUE,"section_max_sd",7.63402649883819
+52,"Female","20-30","East Sepik","None",TRUE,"curv_mean",0.350363437547681
+52,"Female","20-30","East Sepik","None",TRUE,"curv_median",0.312154687054716
+52,"Female","20-30","East Sepik","None",TRUE,"length_mean",3.87083517959091
+52,"Female","20-30","East Sepik","None",TRUE,"length_median",3.76933256903265
+52,"Female","20-30","East Sepik","None",TRUE,"hair_count",19
+52,"Female","20-30","East Sepik","None",TRUE,"section_area_median",4121.13494809689
+52,"Female","20-30","East Sepik","None",TRUE,"section_area_mean",3930.06505190311
+52,"Female","20-30","East Sepik","None",TRUE,"section_area_sd",519.917085304731
+52,"Female","20-30","East Sepik","None",TRUE,"section_eccentricity_median",0.779814404539922
+52,"Female","20-30","East Sepik","None",TRUE,"section_eccentricity_mean",0.775158910090476
+52,"Female","20-30","East Sepik","None",TRUE,"section_eccentricity_sd",0.0417973222051391
+52,"Female","20-30","East Sepik","None",TRUE,"section_min_median",58.0098976542649
+52,"Female","20-30","East Sepik","None",TRUE,"section_min_mean",56.2815986843043
+52,"Female","20-30","East Sepik","None",TRUE,"section_min_sd",5.87313971436739
+52,"Female","20-30","East Sepik","None",TRUE,"section_max_median",88.5940453506092
+52,"Female","20-30","East Sepik","None",TRUE,"section_max_mean",89.3916967734973
+52,"Female","20-30","East Sepik","None",TRUE,"section_max_sd",3.26560762619926
+55,"Female","20-30","Bougainville","None",TRUE,"curv_mean",0.23424917023641
+55,"Female","20-30","Bougainville","None",TRUE,"curv_median",0.212134587218941
+55,"Female","20-30","Bougainville","None",TRUE,"length_mean",3.30530245359251
+55,"Female","20-30","Bougainville","None",TRUE,"length_median",3.41086009335456
+55,"Female","20-30","Bougainville","None",TRUE,"hair_count",23
+55,"Female","20-30","Bougainville","None",TRUE,"section_area_median",3503.6678200692
+55,"Female","20-30","Bougainville","None",TRUE,"section_area_mean",3317.28166089965
+55,"Female","20-30","Bougainville","None",TRUE,"section_area_sd",342.119754926031
+55,"Female","20-30","Bougainville","None",TRUE,"section_eccentricity_median",0.793721090193919
+55,"Female","20-30","Bougainville","None",TRUE,"section_eccentricity_mean",0.788956892636423
+55,"Female","20-30","Bougainville","None",TRUE,"section_eccentricity_sd",0.0479832695511498
+55,"Female","20-30","Bougainville","None",TRUE,"section_min_median",51.5370650851407
+55,"Female","20-30","Bougainville","None",TRUE,"section_min_mean",50.7739826603321
+55,"Female","20-30","Bougainville","None",TRUE,"section_min_sd",3.93048998076482
+55,"Female","20-30","Bougainville","None",TRUE,"section_max_median",83.7904873337408
+55,"Female","20-30","Bougainville","None",TRUE,"section_max_mean",83.4751495156124
+55,"Female","20-30","Bougainville","None",TRUE,"section_max_sd",5.44295321849212
+57,"Female","30-40","Enga","None",FALSE,"curv_mean",0.429688993631011
+57,"Female","30-40","Enga","None",FALSE,"curv_median",0.494870214702224
+57,"Female","30-40","Enga","None",FALSE,"length_mean",4.32559055566055
+57,"Female","30-40","Enga","None",FALSE,"length_median",4.11666177920718
+57,"Female","30-40","Enga","None",FALSE,"hair_count",22
+57,"Female","30-40","Enga","None",FALSE,"section_area_median",3288.80276816609
+57,"Female","30-40","Enga","None",FALSE,"section_area_mean",3343.65674740484
+57,"Female","30-40","Enga","None",FALSE,"section_area_sd",984.12443609876
+57,"Female","30-40","Enga","None",FALSE,"section_eccentricity_median",0.690790186985917
+57,"Female","30-40","Enga","None",FALSE,"section_eccentricity_mean",0.691804797127134
+57,"Female","30-40","Enga","None",FALSE,"section_eccentricity_sd",0.144304525941883
+57,"Female","30-40","Enga","None",FALSE,"section_min_median",50.5388202056438
+57,"Female","30-40","Enga","None",FALSE,"section_min_mean",54.2183506676877
+57,"Female","30-40","Enga","None",FALSE,"section_min_sd",10.6621256161288
+57,"Female","30-40","Enga","None",FALSE,"section_max_median",84.9010904009517
+57,"Female","30-40","Enga","None",FALSE,"section_max_mean",78.5212641434693
+57,"Female","30-40","Enga","None",FALSE,"section_max_sd",12.4806253355369
+58,"Female","30-40","Madang","None",FALSE,"curv_mean",1.11668412232016
+58,"Female","30-40","Madang","None",FALSE,"curv_median",1.0983038993157
+58,"Female","30-40","Madang","None",FALSE,"length_mean",1.8538724370815
+58,"Female","30-40","Madang","None",FALSE,"length_median",1.80175771862674
+58,"Female","30-40","Madang","None",FALSE,"hair_count",42
+58,"Female","30-40","Madang","None",FALSE,"section_area_median",2701.01038062284
+58,"Female","30-40","Madang","None",FALSE,"section_area_mean",2824.47058823529
+58,"Female","30-40","Madang","None",FALSE,"section_area_sd",1127.87351858014
+58,"Female","30-40","Madang","None",FALSE,"section_eccentricity_median",0.731550895850977
+58,"Female","30-40","Madang","None",FALSE,"section_eccentricity_mean",0.738187833580868
+58,"Female","30-40","Madang","None",FALSE,"section_eccentricity_sd",0.0383722633321333
+58,"Female","30-40","Madang","None",FALSE,"section_min_median",48.4824264238672
+58,"Female","30-40","Madang","None",FALSE,"section_min_mean",48.7451398301105
+58,"Female","30-40","Madang","None",FALSE,"section_min_sd",11.0804718427688
+58,"Female","30-40","Madang","None",FALSE,"section_max_median",71.1108282213915
+58,"Female","30-40","Madang","None",FALSE,"section_max_mean",71.9538913427032
+58,"Female","30-40","Madang","None",FALSE,"section_max_sd",12.769839193312
+59,"Female","20-30","Enga","None",TRUE,"curv_mean",0.359683008414194
+59,"Female","20-30","Enga","None",TRUE,"curv_median",0.329744796698647
+59,"Female","20-30","Enga","None",TRUE,"length_mean",3.15123695123298
+59,"Female","20-30","Enga","None",TRUE,"length_median",2.83910758248306
+59,"Female","20-30","Enga","None",TRUE,"hair_count",12
+59,"Female","20-30","Enga","None",TRUE,"section_area_median",2608
+59,"Female","20-30","Enga","None",TRUE,"section_area_mean",3183.14740484429
+59,"Female","20-30","Enga","None",TRUE,"section_area_sd",1352.12936670913
+59,"Female","20-30","Enga","None",TRUE,"section_eccentricity_median",0.744368006681999
+59,"Female","20-30","Enga","None",TRUE,"section_eccentricity_mean",0.749643910692239
+59,"Female","20-30","Enga","None",TRUE,"section_eccentricity_sd",0.0490483122186554
+59,"Female","20-30","Enga","None",TRUE,"section_min_median",47.1132011040415
+59,"Female","20-30","Enga","None",TRUE,"section_min_mean",50.6748961617437
+59,"Female","20-30","Enga","None",TRUE,"section_min_sd",8.06824961817871
+59,"Female","20-30","Enga","None",TRUE,"section_max_median",71.6606455255466
+59,"Female","20-30","Enga","None",TRUE,"section_max_mean",78.0623478685651
+59,"Female","20-30","Enga","None",TRUE,"section_max_sd",19.0990882037867
+60,"Female","20-30","East New Britain","None",TRUE,"curv_mean",0.32159485930778
+60,"Female","20-30","East New Britain","None",TRUE,"curv_median",0.316273547171595
+60,"Female","20-30","East New Britain","None",TRUE,"length_mean",3.62010901035287
+60,"Female","20-30","East New Britain","None",TRUE,"length_median",2.9789993312394
+60,"Female","20-30","East New Britain","None",TRUE,"hair_count",33
+60,"Female","20-30","East New Britain","None",TRUE,"section_area_median",3227.79238754325
+60,"Female","20-30","East New Britain","None",TRUE,"section_area_mean",3164.54901960784
+60,"Female","20-30","East New Britain","None",TRUE,"section_area_sd",140.269838207811
+60,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_median",0.809579645798265
+60,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_mean",0.809973836555136
+60,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_sd",0.0396862895336729
+60,"Female","20-30","East New Britain","None",TRUE,"section_min_median",49.1870394233105
+60,"Female","20-30","East New Britain","None",TRUE,"section_min_mean",48.5712151817497
+60,"Female","20-30","East New Britain","None",TRUE,"section_min_sd",1.37034409628541
+60,"Female","20-30","East New Britain","None",TRUE,"section_max_median",83.7924998797917
+60,"Female","20-30","East New Britain","None",TRUE,"section_max_mean",83.5561162138972
+60,"Female","20-30","East New Britain","None",TRUE,"section_max_sd",5.74907573812446
+62,"Female","20-30","Eastern Highlands","None",TRUE,"curv_mean",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"curv_median",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"length_mean",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"length_median",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"hair_count",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_area_median",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_area_mean",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_area_sd",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_eccentricity_median",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_eccentricity_mean",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_eccentricity_sd",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_min_median",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_min_mean",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_min_sd",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_max_median",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_max_mean",NA
+62,"Female","20-30","Eastern Highlands","None",TRUE,"section_max_sd",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"curv_mean",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"curv_median",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"length_mean",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"length_median",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"hair_count",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_area_median",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_area_mean",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_area_sd",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_eccentricity_median",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_eccentricity_mean",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_eccentricity_sd",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_min_median",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_min_mean",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_min_sd",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_max_median",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_max_mean",NA
+64,"Female","20-30","Morobe","Mega Growth Relaxer",TRUE,"section_max_sd",NA
+66,"Female","20-30","Manus","None",TRUE,"curv_mean",0.288521904301732
+66,"Female","20-30","Manus","None",TRUE,"curv_median",0.285372166942473
+66,"Female","20-30","Manus","None",TRUE,"length_mean",2.69843247935876
+66,"Female","20-30","Manus","None",TRUE,"length_median",2.50890601994537
+66,"Female","20-30","Manus","None",TRUE,"hair_count",13
+66,"Female","20-30","Manus","None",TRUE,"section_area_median",3637.70242214533
+66,"Female","20-30","Manus","None",TRUE,"section_area_mean",3459.11141868512
+66,"Female","20-30","Manus","None",TRUE,"section_area_sd",556.774001003449
+66,"Female","20-30","Manus","None",TRUE,"section_eccentricity_median",0.793734075990202
+66,"Female","20-30","Manus","None",TRUE,"section_eccentricity_mean",0.786592477643086
+66,"Female","20-30","Manus","None",TRUE,"section_eccentricity_sd",0.0466137712676328
+66,"Female","20-30","Manus","None",TRUE,"section_min_median",52.0236540149808
+66,"Female","20-30","Manus","None",TRUE,"section_min_mean",51.9557829720599
+66,"Female","20-30","Manus","None",TRUE,"section_min_sd",4.84750545740349
+66,"Female","20-30","Manus","None",TRUE,"section_max_median",88.6533728637497
+66,"Female","20-30","Manus","None",TRUE,"section_max_mean",85.0931485371234
+66,"Female","20-30","Manus","None",TRUE,"section_max_sd",8.69472610171726
+67,"Female","20-30","Southern Highlands","None",FALSE,"curv_mean",0.295927897590375
+67,"Female","20-30","Southern Highlands","None",FALSE,"curv_median",0.286498024970255
+67,"Female","20-30","Southern Highlands","None",FALSE,"length_mean",3.67487619611425
+67,"Female","20-30","Southern Highlands","None",FALSE,"length_median",3.59340533136398
+67,"Female","20-30","Southern Highlands","None",FALSE,"hair_count",20
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_area_median",4972.78892733564
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_area_mean",4744.1937716263
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_area_sd",1069.6285362858
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_eccentricity_median",0.811175378056871
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_eccentricity_mean",0.814597438593399
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_eccentricity_sd",0.0172020064731906
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_min_median",61.3002410267068
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_min_mean",59.3499945290052
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_min_sd",7.7485884303965
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_max_median",105.519738000725
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_max_mean",102.318069474455
+67,"Female","20-30","Southern Highlands","None",FALSE,"section_max_sd",11.2528808608284
+68,"Male","20-40","Milne Bay","None",TRUE,"curv_mean",0.183758004945636
+68,"Male","20-40","Milne Bay","None",TRUE,"curv_median",0.184965050313815
+68,"Male","20-40","Milne Bay","None",TRUE,"length_mean",3.21544923352986
+68,"Male","20-40","Milne Bay","None",TRUE,"length_median",3.29316406972951
+68,"Male","20-40","Milne Bay","None",TRUE,"hair_count",4
+68,"Male","20-40","Milne Bay","None",TRUE,"section_area_median",5078.75432525952
+68,"Male","20-40","Milne Bay","None",TRUE,"section_area_mean",5046.5107266436
+68,"Male","20-40","Milne Bay","None",TRUE,"section_area_sd",627.169847650149
+68,"Male","20-40","Milne Bay","None",TRUE,"section_eccentricity_median",0.721544714791186
+68,"Male","20-40","Milne Bay","None",TRUE,"section_eccentricity_mean",0.664852455006172
+68,"Male","20-40","Milne Bay","None",TRUE,"section_eccentricity_sd",0.102854145788973
+68,"Male","20-40","Milne Bay","None",TRUE,"section_min_median",70.2504210848914
+68,"Male","20-40","Milne Bay","None",TRUE,"section_min_mean",68.7944602162309
+68,"Male","20-40","Milne Bay","None",TRUE,"section_min_sd",6.05301061600438
+68,"Male","20-40","Milne Bay","None",TRUE,"section_max_median",95.6560612574364
+68,"Male","20-40","Milne Bay","None",TRUE,"section_max_mean",93.7193194017787
+68,"Male","20-40","Milne Bay","None",TRUE,"section_max_sd",7.52036238043005
+71,"Female","20-30","Milne Bay","None",TRUE,"curv_mean",0.172624718765722
+71,"Female","20-30","Milne Bay","None",TRUE,"curv_median",0.172642594073276
+71,"Female","20-30","Milne Bay","None",TRUE,"length_mean",3.06553432134636
+71,"Female","20-30","Milne Bay","None",TRUE,"length_median",3.11855579638905
+71,"Female","20-30","Milne Bay","None",TRUE,"hair_count",11
+71,"Female","20-30","Milne Bay","None",TRUE,"section_area_median",5223.41868512111
+71,"Female","20-30","Milne Bay","None",TRUE,"section_area_mean",5143.56262975779
+71,"Female","20-30","Milne Bay","None",TRUE,"section_area_sd",2058.21165800254
+71,"Female","20-30","Milne Bay","None",TRUE,"section_eccentricity_median",0.764606365778431
+71,"Female","20-30","Milne Bay","None",TRUE,"section_eccentricity_mean",0.761833792009532
+71,"Female","20-30","Milne Bay","None",TRUE,"section_eccentricity_sd",0.0460802321779097
+71,"Female","20-30","Milne Bay","None",TRUE,"section_min_median",69.5828703288238
+71,"Female","20-30","Milne Bay","None",TRUE,"section_min_mean",64.1640769935717
+71,"Female","20-30","Milne Bay","None",TRUE,"section_min_sd",13.6526701232688
+71,"Female","20-30","Milne Bay","None",TRUE,"section_max_median",95.9147525075217
+71,"Female","20-30","Milne Bay","None",TRUE,"section_max_mean",99.9619985576471
+71,"Female","20-30","Milne Bay","None",TRUE,"section_max_sd",23.6075465611988
+72,"Male","50-60","Milne Bay","None",FALSE,"curv_mean",0.554032835282025
+72,"Male","50-60","Milne Bay","None",FALSE,"curv_median",0.558134762650148
+72,"Male","50-60","Milne Bay","None",FALSE,"length_mean",3.25945762155216
+72,"Male","50-60","Milne Bay","None",FALSE,"length_median",3.32749245284686
+72,"Male","50-60","Milne Bay","None",FALSE,"hair_count",20
+72,"Male","50-60","Milne Bay","None",FALSE,"section_area_median",4021.75778546713
+72,"Male","50-60","Milne Bay","None",FALSE,"section_area_mean",4395.79238754325
+72,"Male","50-60","Milne Bay","None",FALSE,"section_area_sd",1146.62517401617
+72,"Male","50-60","Milne Bay","None",FALSE,"section_eccentricity_median",0.743071168563096
+72,"Male","50-60","Milne Bay","None",FALSE,"section_eccentricity_mean",0.743003290136494
+72,"Male","50-60","Milne Bay","None",FALSE,"section_eccentricity_sd",0.0392933313264938
+72,"Male","50-60","Milne Bay","None",FALSE,"section_min_median",58.6287168053086
+72,"Male","50-60","Milne Bay","None",FALSE,"section_min_mean",60.9222856070445
+72,"Male","50-60","Milne Bay","None",FALSE,"section_min_sd",8.88320808791548
+72,"Male","50-60","Milne Bay","None",FALSE,"section_max_median",87.6085330538703
+72,"Male","50-60","Milne Bay","None",FALSE,"section_max_mean",91.2534211043157
+72,"Male","50-60","Milne Bay","None",FALSE,"section_max_sd",10.66677390123
+73,"Male","20-30","Gulf","None",TRUE,"curv_mean",0.174309467972556
+73,"Male","20-30","Gulf","None",TRUE,"curv_median",0.11616068569407
+73,"Male","20-30","Gulf","None",TRUE,"length_mean",3.1281282431437
+73,"Male","20-30","Gulf","None",TRUE,"length_median",3.60557775186787
+73,"Male","20-30","Gulf","None",TRUE,"hair_count",22
+73,"Male","20-30","Gulf","None",TRUE,"section_area_median",5505.21799307958
+73,"Male","20-30","Gulf","None",TRUE,"section_area_mean",5241.2124567474
+73,"Male","20-30","Gulf","None",TRUE,"section_area_sd",470.063170703486
+73,"Male","20-30","Gulf","None",TRUE,"section_eccentricity_median",0.727680813426222
+73,"Male","20-30","Gulf","None",TRUE,"section_eccentricity_mean",0.751297818254956
+73,"Male","20-30","Gulf","None",TRUE,"section_eccentricity_sd",0.0557238776931283
+73,"Male","20-30","Gulf","None",TRUE,"section_min_median",65.7652519765795
+73,"Male","20-30","Gulf","None",TRUE,"section_min_mean",66.4071413321668
+73,"Male","20-30","Gulf","None",TRUE,"section_min_sd",4.92626072783833
+73,"Male","20-30","Gulf","None",TRUE,"section_max_median",101.330855885528
+73,"Male","20-30","Gulf","None",TRUE,"section_max_mean",101.614163669628
+73,"Male","20-30","Gulf","None",TRUE,"section_max_sd",5.69602085496247
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"curv_mean",0.446690206695756
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"curv_median",0.484255231884199
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"length_mean",4.20965368981257
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"length_median",3.95863209180468
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"hair_count",19
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_area_median",4120.69204152249
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_area_mean",4754.75709342561
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_area_sd",1135.20859827508
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_eccentricity_median",0.817302025467439
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_eccentricity_mean",0.825405411585896
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_eccentricity_sd",0.0267882561573709
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_min_median",56.3995332317464
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_min_mean",58.1065975926106
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_min_sd",6.11742269046014
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_max_median",96.121330291627
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_max_mean",103.68872000256
+74,"Male","40-50","Madang/Southern Highlands","None",FALSE,"section_max_sd",14.1797936003678
+75,"Male","20-30","East New Britain","None",FALSE,"curv_mean",0.373983478900033
+75,"Male","20-30","East New Britain","None",FALSE,"curv_median",0.324122900041211
+75,"Male","20-30","East New Britain","None",FALSE,"length_mean",3.7898141962496
+75,"Male","20-30","East New Britain","None",FALSE,"length_median",3.36436914557942
+75,"Male","20-30","East New Britain","None",FALSE,"hair_count",21
+75,"Male","20-30","East New Britain","None",FALSE,"section_area_median",3942.03460207612
+75,"Male","20-30","East New Britain","None",FALSE,"section_area_mean",3876.28512110727
+75,"Male","20-30","East New Britain","None",FALSE,"section_area_sd",329.326379210311
+75,"Male","20-30","East New Britain","None",FALSE,"section_eccentricity_median",0.848737027490675
+75,"Male","20-30","East New Britain","None",FALSE,"section_eccentricity_mean",0.847528869323478
+75,"Male","20-30","East New Britain","None",FALSE,"section_eccentricity_sd",0.0106317418835515
+75,"Male","20-30","East New Britain","None",FALSE,"section_min_median",52.450114762568
+75,"Male","20-30","East New Britain","None",FALSE,"section_min_mean",51.3582848082865
+75,"Male","20-30","East New Britain","None",FALSE,"section_min_sd",2.59014674482847
+75,"Male","20-30","East New Britain","None",FALSE,"section_max_median",95.2839299500113
+75,"Male","20-30","East New Britain","None",FALSE,"section_max_mean",96.8203680296322
+75,"Male","20-30","East New Britain","None",FALSE,"section_max_sd",3.94185438617562
+76,"Male","20-30","Enga","None",FALSE,"curv_mean",0.530306811567211
+76,"Male","20-30","Enga","None",FALSE,"curv_median",0.535457143978816
+76,"Male","20-30","Enga","None",FALSE,"length_mean",3.21246233121626
+76,"Male","20-30","Enga","None",FALSE,"length_median",2.89686614796154
+76,"Male","20-30","Enga","None",FALSE,"hair_count",14
+76,"Male","20-30","Enga","None",FALSE,"section_area_median",7172.37370242215
+76,"Male","20-30","Enga","None",FALSE,"section_area_mean",7160.71418685121
+76,"Male","20-30","Enga","None",FALSE,"section_area_sd",361.553716864476
+76,"Male","20-30","Enga","None",FALSE,"section_eccentricity_median",0.791470795938279
+76,"Male","20-30","Enga","None",FALSE,"section_eccentricity_mean",0.796896893299114
+76,"Male","20-30","Enga","None",FALSE,"section_eccentricity_sd",0.0116031763169426
+76,"Male","20-30","Enga","None",FALSE,"section_min_median",75.058215791391
+76,"Male","20-30","Enga","None",FALSE,"section_min_mean",74.455952310306
+76,"Male","20-30","Enga","None",FALSE,"section_min_sd",1.27765638586736
+76,"Male","20-30","Enga","None",FALSE,"section_max_median",121.952850499391
+76,"Male","20-30","Enga","None",FALSE,"section_max_mean",123.385846158973
+76,"Male","20-30","Enga","None",FALSE,"section_max_sd",4.65631295517608
+77,"Female","20-30","East New Britain","None",TRUE,"curv_mean",0.246873579423784
+77,"Female","20-30","East New Britain","None",TRUE,"curv_median",0.270640616923779
+77,"Female","20-30","East New Britain","None",TRUE,"length_mean",3.55473720080725
+77,"Female","20-30","East New Britain","None",TRUE,"length_median",3.37516953143134
+77,"Female","20-30","East New Britain","None",TRUE,"hair_count",28
+77,"Female","20-30","East New Britain","None",TRUE,"section_area_median",3484.51211072664
+77,"Female","20-30","East New Britain","None",TRUE,"section_area_mean",3870.2062283737
+77,"Female","20-30","East New Britain","None",TRUE,"section_area_sd",958.491988628085
+77,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_median",0.786792320116087
+77,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_mean",0.794691590907095
+77,"Female","20-30","East New Britain","None",TRUE,"section_eccentricity_sd",0.0296419398358633
+77,"Female","20-30","East New Britain","None",TRUE,"section_min_median",51.3938284042331
+77,"Female","20-30","East New Britain","None",TRUE,"section_min_mean",54.5624840562859
+77,"Female","20-30","East New Britain","None",TRUE,"section_min_sd",6.96880934290709
+77,"Female","20-30","East New Britain","None",TRUE,"section_max_median",89.5177204187887
+77,"Female","20-30","East New Britain","None",TRUE,"section_max_mean",90.2364412337509
+77,"Female","20-30","East New Britain","None",TRUE,"section_max_sd",10.6080161557354
+78,"Male","20-30","New Ireland","None",TRUE,"curv_mean",0.188962444261064
+78,"Male","20-30","New Ireland","None",TRUE,"curv_median",0.201372655339616
+78,"Male","20-30","New Ireland","None",TRUE,"length_mean",6.32570557474291
+78,"Male","20-30","New Ireland","None",TRUE,"length_median",3.64051917875163
+78,"Male","20-30","New Ireland","None",TRUE,"hair_count",28
+78,"Male","20-30","New Ireland","None",TRUE,"section_area_median",4299.40484429066
+78,"Male","20-30","New Ireland","None",TRUE,"section_area_mean",4654.02906574394
+78,"Male","20-30","New Ireland","None",TRUE,"section_area_sd",1269.12593215138
+78,"Male","20-30","New Ireland","None",TRUE,"section_eccentricity_median",0.798068969594007
+78,"Male","20-30","New Ireland","None",TRUE,"section_eccentricity_mean",0.804146732101567
+78,"Male","20-30","New Ireland","None",TRUE,"section_eccentricity_sd",0.0247815535471361
+78,"Male","20-30","New Ireland","None",TRUE,"section_min_median",58.8989454265426
+78,"Male","20-30","New Ireland","None",TRUE,"section_min_mean",58.9331888899815
+78,"Male","20-30","New Ireland","None",TRUE,"section_min_sd",6.77116157362613
+78,"Male","20-30","New Ireland","None",TRUE,"section_max_median",93.5576127311821
+78,"Male","20-30","New Ireland","None",TRUE,"section_max_mean",100.000161658755
+78,"Male","20-30","New Ireland","None",TRUE,"section_max_sd",16.4283128306173
+79,"Female","20-30","Central Province","None",FALSE,"curv_mean",0.353071638333469
+79,"Female","20-30","Central Province","None",FALSE,"curv_median",0.345819687340098
+79,"Female","20-30","Central Province","None",FALSE,"length_mean",3.51493236153971
+79,"Female","20-30","Central Province","None",FALSE,"length_median",3.51778415697436
+79,"Female","20-30","Central Province","None",FALSE,"hair_count",20
+79,"Female","20-30","Central Province","None",FALSE,"section_area_median",5058.71280276817
+79,"Female","20-30","Central Province","None",FALSE,"section_area_mean",5049.63321799308
+79,"Female","20-30","Central Province","None",FALSE,"section_area_sd",690.462110218542
+79,"Female","20-30","Central Province","None",FALSE,"section_eccentricity_median",0.786674827627184
+79,"Female","20-30","Central Province","None",FALSE,"section_eccentricity_mean",0.758346316035358
+79,"Female","20-30","Central Province","None",FALSE,"section_eccentricity_sd",0.085037789094533
+79,"Female","20-30","Central Province","None",FALSE,"section_min_median",63.9850251110513
+79,"Female","20-30","Central Province","None",FALSE,"section_min_mean",63.9551170331427
+79,"Female","20-30","Central Province","None",FALSE,"section_min_sd",3.95376147504329
+79,"Female","20-30","Central Province","None",FALSE,"section_max_median",109.719894976819
+79,"Female","20-30","Central Province","None",FALSE,"section_max_mean",101.256633369862
+79,"Female","20-30","Central Province","None",FALSE,"section_max_sd",13.1031204884649
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"curv_mean",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"curv_median",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"length_mean",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"length_median",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"hair_count",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_area_median",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_area_mean",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_area_sd",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_eccentricity_median",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_eccentricity_mean",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_eccentricity_sd",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_min_median",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_min_mean",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_min_sd",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_max_median",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_max_mean",NA
+80,"Female","20-30","Madang/Jiwaka","Colour/Bleach",FALSE,"section_max_sd",NA
+82,"Male","20-30","Enga","None",FALSE,"curv_mean",0.322480164870645
+82,"Male","20-30","Enga","None",FALSE,"curv_median",0.315131440174842
+82,"Male","20-30","Enga","None",FALSE,"length_mean",3.62989665839085
+82,"Male","20-30","Enga","None",FALSE,"length_median",3.41390566270626
+82,"Male","20-30","Enga","None",FALSE,"hair_count",25
+82,"Male","20-30","Enga","None",FALSE,"section_area_median",4518.64359861592
+82,"Male","20-30","Enga","None",FALSE,"section_area_mean",4261.02698961938
+82,"Male","20-30","Enga","None",FALSE,"section_area_sd",611.60499993066
+82,"Male","20-30","Enga","None",FALSE,"section_eccentricity_median",0.697079906616309
+82,"Male","20-30","Enga","None",FALSE,"section_eccentricity_mean",0.645581186996099
+82,"Male","20-30","Enga","None",FALSE,"section_eccentricity_sd",0.16792652913804
+82,"Male","20-30","Enga","None",FALSE,"section_min_median",65.5566967458767
+82,"Male","20-30","Enga","None",FALSE,"section_min_mean",63.3795604996887
+82,"Male","20-30","Enga","None",FALSE,"section_min_sd",7.40917656194687
+82,"Male","20-30","Enga","None",FALSE,"section_max_median",86.4873949797621
+82,"Male","20-30","Enga","None",FALSE,"section_max_mean",85.9389767674759
+82,"Male","20-30","Enga","None",FALSE,"section_max_sd",7.42141144360225
+84,"Male","20-30","Bougainville","None",TRUE,"curv_mean",0.349498525287434
+84,"Male","20-30","Bougainville","None",TRUE,"curv_median",0.358486609581966
+84,"Male","20-30","Bougainville","None",TRUE,"length_mean",3.37233741364031
+84,"Male","20-30","Bougainville","None",TRUE,"length_median",3.03357114346519
+84,"Male","20-30","Bougainville","None",TRUE,"hair_count",29
+84,"Male","20-30","Bougainville","None",TRUE,"section_area_median",4155.57093425606
+84,"Male","20-30","Bougainville","None",TRUE,"section_area_mean",4347.29411764706
+84,"Male","20-30","Bougainville","None",TRUE,"section_area_sd",580.958618794382
+84,"Male","20-30","Bougainville","None",TRUE,"section_eccentricity_median",0.791162673209987
+84,"Male","20-30","Bougainville","None",TRUE,"section_eccentricity_mean",0.791976098603818
+84,"Male","20-30","Bougainville","None",TRUE,"section_eccentricity_sd",0.0206685642372559
+84,"Male","20-30","Bougainville","None",TRUE,"section_min_median",57.4053337581351
+84,"Male","20-30","Bougainville","None",TRUE,"section_min_mean",58.1882976026658
+84,"Male","20-30","Bougainville","None",TRUE,"section_min_sd",4.43642622897455
+84,"Male","20-30","Bougainville","None",TRUE,"section_max_median",96.133695579224
+84,"Male","20-30","Bougainville","None",TRUE,"section_max_mean",95.4240644281186
+84,"Male","20-30","Bougainville","None",TRUE,"section_max_sd",5.68337282947612
+85,"Male","20-30","Western Highlands","None",TRUE,"curv_mean",0.555042482455221
+85,"Male","20-30","Western Highlands","None",TRUE,"curv_median",0.574598084735852
+85,"Male","20-30","Western Highlands","None",TRUE,"length_mean",4.10948254686688
+85,"Male","20-30","Western Highlands","None",TRUE,"length_median",3.54821535415252
+85,"Male","20-30","Western Highlands","None",TRUE,"hair_count",23
+85,"Male","20-30","Western Highlands","None",TRUE,"section_area_median",3962.57439446367
+85,"Male","20-30","Western Highlands","None",TRUE,"section_area_mean",3842.76816608997
+85,"Male","20-30","Western Highlands","None",TRUE,"section_area_sd",734.374725220157
+85,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_median",0.838241194833769
+85,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_mean",0.821169813804601
+85,"Male","20-30","Western Highlands","None",TRUE,"section_eccentricity_sd",0.0875578840602155
+85,"Male","20-30","Western Highlands","None",TRUE,"section_min_median",48.9316213305013
+85,"Male","20-30","Western Highlands","None",TRUE,"section_min_mean",52.3163253409113
+85,"Male","20-30","Western Highlands","None",TRUE,"section_min_sd",9.303563245114
+85,"Male","20-30","Western Highlands","None",TRUE,"section_max_median",90.6744845106913
+85,"Male","20-30","Western Highlands","None",TRUE,"section_max_mean",94.6730219475841
+85,"Male","20-30","Western Highlands","None",TRUE,"section_max_sd",8.91580583268027
+86,"Female","60-70","New Ireland","None",TRUE,"curv_mean",0.375824796126814
+86,"Female","60-70","New Ireland","None",TRUE,"curv_median",0.426374751940145
+86,"Female","60-70","New Ireland","None",TRUE,"length_mean",3.41867590350539
+86,"Female","60-70","New Ireland","None",TRUE,"length_median",3.0844882977764
+86,"Female","60-70","New Ireland","None",TRUE,"hair_count",31
+86,"Female","60-70","New Ireland","None",TRUE,"section_area_median",6514.82352941176
+86,"Female","60-70","New Ireland","None",TRUE,"section_area_mean",6254.83737024221
+86,"Female","60-70","New Ireland","None",TRUE,"section_area_sd",820.6991626508
+86,"Female","60-70","New Ireland","None",TRUE,"section_eccentricity_median",0.806888673309562
+86,"Female","60-70","New Ireland","None",TRUE,"section_eccentricity_mean",0.704456074662664
+86,"Female","60-70","New Ireland","None",TRUE,"section_eccentricity_sd",0.172988133086176
+86,"Female","60-70","New Ireland","None",TRUE,"section_min_median",69.5009183780405
+86,"Female","60-70","New Ireland","None",TRUE,"section_min_mean",73.0651005389956
+86,"Female","60-70","New Ireland","None",TRUE,"section_min_sd",9.01757657829294
+86,"Female","60-70","New Ireland","None",TRUE,"section_max_median",114.679212462776
+86,"Female","60-70","New Ireland","None",TRUE,"section_max_mean",110.650456331801
+86,"Female","60-70","New Ireland","None",TRUE,"section_max_sd",16.1405548398567
+87,"Male","20-30","Enga","None",FALSE,"curv_mean",0.412261575338125
+87,"Male","20-30","Enga","None",FALSE,"curv_median",0.295355611796828
+87,"Male","20-30","Enga","None",FALSE,"length_mean",4.0023613062414
+87,"Male","20-30","Enga","None",FALSE,"length_median",3.21716842439458
+87,"Male","20-30","Enga","None",FALSE,"hair_count",21
+87,"Male","20-30","Enga","None",FALSE,"section_area_median",5758.94809688581
+87,"Male","20-30","Enga","None",FALSE,"section_area_mean",5444.7169550173
+87,"Male","20-30","Enga","None",FALSE,"section_area_sd",813.082189919375
+87,"Male","20-30","Enga","None",FALSE,"section_eccentricity_median",0.800554084765337
+87,"Male","20-30","Enga","None",FALSE,"section_eccentricity_mean",0.774318344637511
+87,"Male","20-30","Enga","None",FALSE,"section_eccentricity_sd",0.061093870255539
+87,"Male","20-30","Enga","None",FALSE,"section_min_median",66.9309011283784
+87,"Male","20-30","Enga","None",FALSE,"section_min_mean",65.960990763964
+87,"Male","20-30","Enga","None",FALSE,"section_min_sd",6.63212190287823
+87,"Male","20-30","Enga","None",FALSE,"section_max_median",100.3654988931
+87,"Male","20-30","Enga","None",FALSE,"section_max_mean",105.614866141256
+87,"Male","20-30","Enga","None",FALSE,"section_max_sd",9.91147587311431
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"curv_mean",0.582146474720747
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"curv_median",0.616623467628708
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"length_mean",3.80200077416291
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"length_median",2.70494622995087
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"hair_count",19
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_area_median",5292.62283737024
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_area_mean",5180.78892733564
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_area_sd",652.934039785475
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_eccentricity_median",0.817791190702472
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_eccentricity_mean",0.814511146860351
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_eccentricity_sd",0.0178249304593834
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_min_median",63.7465698480532
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_min_mean",61.9111512992805
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_min_sd",4.76821364492444
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_max_median",106.728405493698
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_max_mean",106.782231792497
+88,"Male","20-30","Enga/Southern Highlands","None",FALSE,"section_max_sd",5.99437277946579
+89,"Male","20-30","Hela","None",FALSE,"curv_mean",0.321842768300959
+89,"Male","20-30","Hela","None",FALSE,"curv_median",0.287584167026344
+89,"Male","20-30","Hela","None",FALSE,"length_mean",2.71296472085257
+89,"Male","20-30","Hela","None",FALSE,"length_median",2.45201314824515
+89,"Male","20-30","Hela","None",FALSE,"hair_count",36
+89,"Male","20-30","Hela","None",FALSE,"section_area_median",5425.99307958477
+89,"Male","20-30","Hela","None",FALSE,"section_area_mean",5636.56193771626
+89,"Male","20-30","Hela","None",FALSE,"section_area_sd",1235.62370230702
+89,"Male","20-30","Hela","None",FALSE,"section_eccentricity_median",0.741937621301364
+89,"Male","20-30","Hela","None",FALSE,"section_eccentricity_mean",0.637805092450225
+89,"Male","20-30","Hela","None",FALSE,"section_eccentricity_sd",0.174172973810382
+89,"Male","20-30","Hela","None",FALSE,"section_min_median",75.0922391364733
+89,"Male","20-30","Hela","None",FALSE,"section_min_mean",72.6305134429371
+89,"Male","20-30","Hela","None",FALSE,"section_min_sd",9.11346705318873
+89,"Male","20-30","Hela","None",FALSE,"section_max_median",92.0752789425679
+89,"Male","20-30","Hela","None",FALSE,"section_max_mean",98.5464326243218
+89,"Male","20-30","Hela","None",FALSE,"section_max_sd",14.45319728658
+91,"Male","20-30","Bougainville","None",TRUE,"curv_mean",0.408712580947201
+91,"Male","20-30","Bougainville","None",TRUE,"curv_median",0.411526471121916
+91,"Male","20-30","Bougainville","None",TRUE,"length_mean",3.78707359716163
+91,"Male","20-30","Bougainville","None",TRUE,"length_median",3.76568520133533
+91,"Male","20-30","Bougainville","None",TRUE,"hair_count",21
+91,"Male","20-30","Bougainville","None",TRUE,"section_area_median",3059.87543252595
+91,"Male","20-30","Bougainville","None",TRUE,"section_area_mean",3427.3660899654
+91,"Male","20-30","Bougainville","None",TRUE,"section_area_sd",805.438165126274
+91,"Male","20-30","Bougainville","None",TRUE,"section_eccentricity_median",0.781467123279043
+91,"Male","20-30","Bougainville","None",TRUE,"section_eccentricity_mean",0.776766369670698
+91,"Male","20-30","Bougainville","None",TRUE,"section_eccentricity_sd",0.0279254524354505
+91,"Male","20-30","Bougainville","None",TRUE,"section_min_median",50.8439030032061
+91,"Male","20-30","Bougainville","None",TRUE,"section_min_mean",52.0594583102324
+91,"Male","20-30","Bougainville","None",TRUE,"section_min_sd",4.84087717504884
+91,"Male","20-30","Bougainville","None",TRUE,"section_max_median",76.8044999589544
+91,"Male","20-30","Bougainville","None",TRUE,"section_max_mean",83.2836025200358
+91,"Male","20-30","Bougainville","None",TRUE,"section_max_sd",11.704092648372
+92,"Female","40-50","West New Britain","Yes",FALSE,"curv_mean",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"curv_median",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"length_mean",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"length_median",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"hair_count",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_area_median",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_area_mean",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_area_sd",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_eccentricity_median",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_eccentricity_mean",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_eccentricity_sd",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_min_median",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_min_mean",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_min_sd",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_max_median",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_max_mean",NA
+92,"Female","40-50","West New Britain","Yes",FALSE,"section_max_sd",NA
+93,"Female","20-30","Hela","None",TRUE,"curv_mean",0.493642075366906
+93,"Female","20-30","Hela","None",TRUE,"curv_median",0.523180158155817
+93,"Female","20-30","Hela","None",TRUE,"length_mean",2.76487983365383
+93,"Female","20-30","Hela","None",TRUE,"length_median",2.44188908105418
+93,"Female","20-30","Hela","None",TRUE,"hair_count",33
+93,"Female","20-30","Hela","None",TRUE,"section_area_median",3255.6955017301
+93,"Female","20-30","Hela","None",TRUE,"section_area_mean",3473.20692041522
+93,"Female","20-30","Hela","None",TRUE,"section_area_sd",727.724856461126
+93,"Female","20-30","Hela","None",TRUE,"section_eccentricity_median",0.826382775933958
+93,"Female","20-30","Hela","None",TRUE,"section_eccentricity_mean",0.82124971920108
+93,"Female","20-30","Hela","None",TRUE,"section_eccentricity_sd",0.0354357278830226
+93,"Female","20-30","Hela","None",TRUE,"section_min_median",46.55000158008
+93,"Female","20-30","Hela","None",TRUE,"section_min_mean",50.061150429208
+93,"Female","20-30","Hela","None",TRUE,"section_min_sd",6.17114587835087
+93,"Female","20-30","Hela","None",TRUE,"section_max_median",89.8019199243646
+93,"Female","20-30","Hela","None",TRUE,"section_max_mean",88.3190318513883
+93,"Female","20-30","Hela","None",TRUE,"section_max_sd",9.38115816411598
+94,"Male","20-50","Western Province","None",TRUE,"curv_mean",0.385018963273506
+94,"Male","20-50","Western Province","None",TRUE,"curv_median",0.386102975271273
+94,"Male","20-50","Western Province","None",TRUE,"length_mean",2.7371047532328
+94,"Male","20-50","Western Province","None",TRUE,"length_median",2.40461294348942
+94,"Male","20-50","Western Province","None",TRUE,"hair_count",29
+94,"Male","20-50","Western Province","None",TRUE,"section_area_median",3941.70242214533
+94,"Male","20-50","Western Province","None",TRUE,"section_area_mean",3440.1660899654
+94,"Male","20-50","Western Province","None",TRUE,"section_area_sd",1118.17727836733
+94,"Male","20-50","Western Province","None",TRUE,"section_eccentricity_median",0.806341537550934
+94,"Male","20-50","Western Province","None",TRUE,"section_eccentricity_mean",0.795599380908644
+94,"Male","20-50","Western Province","None",TRUE,"section_eccentricity_sd",0.0403518656235236
+94,"Male","20-50","Western Province","None",TRUE,"section_min_median",57.0975229775446
+94,"Male","20-50","Western Province","None",TRUE,"section_min_mean",50.9916155790889
+94,"Male","20-50","Western Province","None",TRUE,"section_min_sd",10.3449275944629
+94,"Male","20-50","Western Province","None",TRUE,"section_max_median",87.0371562260218
+94,"Male","20-50","Western Province","None",TRUE,"section_max_mean",84.2261338654701
+94,"Male","20-50","Western Province","None",TRUE,"section_max_sd",12.9613699768157
+95,"Male","20-30","Jiwaka","None",FALSE,"curv_mean",0.625010568120996
+95,"Male","20-30","Jiwaka","None",FALSE,"curv_median",0.678571441203717
+95,"Male","20-30","Jiwaka","None",FALSE,"length_mean",3.92479856472049
+95,"Male","20-30","Jiwaka","None",FALSE,"length_median",3.54025999437372
+95,"Male","20-30","Jiwaka","None",FALSE,"hair_count",21
+95,"Male","20-30","Jiwaka","None",FALSE,"section_area_median",3900.51211072664
+95,"Male","20-30","Jiwaka","None",FALSE,"section_area_mean",3753.99861591696
+95,"Male","20-30","Jiwaka","None",FALSE,"section_area_sd",716.292995549638
+95,"Male","20-30","Jiwaka","None",FALSE,"section_eccentricity_median",0.817405522369805
+95,"Male","20-30","Jiwaka","None",FALSE,"section_eccentricity_mean",0.803421510039833
+95,"Male","20-30","Jiwaka","None",FALSE,"section_eccentricity_sd",0.0315158940721717
+95,"Male","20-30","Jiwaka","None",FALSE,"section_min_median",53.3834601845019
+95,"Male","20-30","Jiwaka","None",FALSE,"section_min_mean",53.1902002722025
+95,"Male","20-30","Jiwaka","None",FALSE,"section_min_sd",5.7933937707782
+95,"Male","20-30","Jiwaka","None",FALSE,"section_max_median",89.7020462594544
+95,"Male","20-30","Jiwaka","None",FALSE,"section_max_mean",89.6470057659192
+95,"Male","20-30","Jiwaka","None",FALSE,"section_max_sd",8.46597160762489
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"curv_mean",0.54463808277284
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"curv_median",0.538736186940154
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"length_mean",2.73342440680065
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"length_median",2.7473457955067
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"hair_count",27
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_area_median",6346.07612456747
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_area_mean",6516.07474048443
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_area_sd",827.60725184271
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_eccentricity_median",0.743868764866784
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_eccentricity_mean",0.71794840651685
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_eccentricity_sd",0.1064027342182
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_min_median",74.4150153405297
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_min_mean",75.1424336512266
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_min_sd",6.83059008300115
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_max_median",108.874148016425
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_max_mean",110.886006060465
+96,"Male","20-30","East Sepik/Morobe","None",FALSE,"section_max_sd",11.0145780890209
+97,"Male","20-30","Eastern Highlands","None",FALSE,"curv_mean",0.484688003322931
+97,"Male","20-30","Eastern Highlands","None",FALSE,"curv_median",0.458279242271346
+97,"Male","20-30","Eastern Highlands","None",FALSE,"length_mean",2.91381435125097
+97,"Male","20-30","Eastern Highlands","None",FALSE,"length_median",2.53423076136187
+97,"Male","20-30","Eastern Highlands","None",FALSE,"hair_count",20
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_area_median",4947.21107266436
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_area_mean",4419.54325259516
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_area_sd",1401.66227321256
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_eccentricity_median",0.700924216005019
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_eccentricity_mean",0.713569622472234
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_eccentricity_sd",0.0823695475385431
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_min_median",64.0756051003482
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_min_mean",61.4290880314013
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_min_sd",8.18003467209791
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_max_median",93.5624546645905
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_max_mean",90.4767367752692
+97,"Male","20-30","Eastern Highlands","None",FALSE,"section_max_sd",19.9460351290895
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"curv_mean",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"curv_median",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"length_mean",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"length_median",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"hair_count",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_area_median",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_area_mean",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_area_sd",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_eccentricity_median",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_eccentricity_mean",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_eccentricity_sd",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_min_median",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_min_mean",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_min_sd",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_max_median",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_max_mean",NA
+100,"Female","20-30","Eastern Highlands","Mega Growth Relaxer",TRUE,"section_max_sd",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"curv_mean",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"curv_median",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"length_mean",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"length_median",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"hair_count",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_area_median",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_area_mean",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_area_sd",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_eccentricity_median",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_eccentricity_mean",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_eccentricity_sd",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_min_median",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_min_mean",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_min_sd",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_max_median",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_max_mean",NA
+101,"Female","20-30","Chimbu","Colour/Bleach",FALSE,"section_max_sd",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"curv_mean",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"curv_median",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"length_mean",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"length_median",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"hair_count",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_area_median",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_area_mean",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_area_sd",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_eccentricity_median",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_eccentricity_mean",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_eccentricity_sd",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_min_median",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_min_mean",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_min_sd",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_max_median",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_max_mean",NA
+102,"Female","20-30","Western Highlands","Colour/Bleach",FALSE,"section_max_sd",NA
+105,"Male","60-70","New Ireland","None",FALSE,"curv_mean",0.528216021315577
+105,"Male","60-70","New Ireland","None",FALSE,"curv_median",0.527826137632187
+105,"Male","60-70","New Ireland","None",FALSE,"length_mean",2.60196585012561
+105,"Male","60-70","New Ireland","None",FALSE,"length_median",2.33654004510448
+105,"Male","60-70","New Ireland","None",FALSE,"hair_count",21
+105,"Male","60-70","New Ireland","None",FALSE,"section_area_median",3234.54671280277
+105,"Male","60-70","New Ireland","None",FALSE,"section_area_mean",3364.09688581315
+105,"Male","60-70","New Ireland","None",FALSE,"section_area_sd",943.603731072047
+105,"Male","60-70","New Ireland","None",FALSE,"section_eccentricity_median",0.743083418226707
+105,"Male","60-70","New Ireland","None",FALSE,"section_eccentricity_mean",0.73259565023899
+105,"Male","60-70","New Ireland","None",FALSE,"section_eccentricity_sd",0.089767929108206
+105,"Male","60-70","New Ireland","None",FALSE,"section_min_median",51.3129178084535
+105,"Male","60-70","New Ireland","None",FALSE,"section_min_mean",53.7336210934745
+105,"Male","60-70","New Ireland","None",FALSE,"section_min_sd",10.9366228872
+105,"Male","60-70","New Ireland","None",FALSE,"section_max_median",79.7641183200273
+105,"Male","60-70","New Ireland","None",FALSE,"section_max_mean",79.6563964613341
+105,"Male","60-70","New Ireland","None",FALSE,"section_max_sd",6.71501019762235
