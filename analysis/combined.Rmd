@@ -1,0 +1,116 @@
+---
+title: "Combined Phenotype data"
+author: "Tina Lasisi"
+date: "`r Sys.time()`"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+This documents the merge of the phenotype data 
+
+```{r include=FALSE}
+library(tidyverse)
+library(ggstatsplot)
+library(ggsci)
+library(paletteer)
+
+F = rprojroot::is_rstudio_project$make_fix_file()
+
+knitr::opts_chunk$set(echo = FALSE, include = TRUE, eval = TRUE, warning = FALSE, message = FALSE, fig.retina = 2, fig.width = 8, fig.height = 4, out.width = "100%")
+
+```
+
+```{r functions, include=FALSE}
+plot_path = F("output")
+
+pltsave_func <- function(plot, plot_path, width, height){
+  filename <- paste0(deparse(substitute(plot)), ".png")
+  fullpath <- file.path(plot_path, filename)
+  ggsave(
+      filename = filename,
+      plot = plot, 
+      path = plot_path,
+      width = width,
+      height = height)
+}
+```
+# Merging dataframes
+Here, we merge the participant information with section and curvature data.
+
+```{r df_datamerge, echo=TRUE}
+
+section_df_premerge <- as_tibble(read.csv(F("data/section_df.csv")))
+
+curvature_df_premerge <- as_tibble(read.csv(F("data/curvature_df.csv")))
+
+info_df <- as_tibble(read.csv(F("data/PNG_info.csv")))
+
+head(curvature_df_premerge)
+head(section_df_premerge)
+head(info_df)
+
+PNG_df_merged_wide <- left_join(info_df, curvature_df_premerge) %>% 
+  left_join(section_df_premerge)
+
+PNG_df_merged_long <- pivot_longer(data = PNG_df_merged_wide, cols = curv_mean:max_sd, names_to = "var") %>%
+  mutate(var = as_factor(var))
+
+```
+
+# Exploratory data analysis
+
+There appear to be no significant differences among groups in the different hair variables.
+
+```{r plt_HairVarMean, fig.width=16, fig.height=20}
+
+paletteer_vector <-
+  paletteer::paletteer_c("viridis::inferno", 
+    n = nlevels(PNG_df_merged_long$Province)
+    )
+
+plt_HairVarMean <- PNG_df_merged_long %>% 
+  filter(str_detect(var, "mean")) %>% 
+  droplevels() %>% 
+  grouped_ggbetweenstats(
+    data = .,
+    x = Province,
+    y = value,
+    grouping.var = var,
+    ggplot.component = list(ggplot2::scale_color_manual(values = paletteer_vector), ggplot2::coord_flip()),
+    type = "np",
+    plotgrid.args = list(ncol = 2, labels = "auto"),
+    pairwise.display = "significant",
+    mean.plotting = FALSE,
+    sample.size.label = TRUE
+  )
+
+pltsave_func(plt_HairVarMean, plot_path, width = 16, height = 20)
+
+plt_HairVarMean
+```
+
+
+```{r plt_HairVarMedian, fig.width=16, fig.height=20}
+plt_HairVarMedian <- PNG_df_merged_long %>% 
+  filter(str_detect(var, "median")) %>% 
+  droplevels() %>% 
+  grouped_ggbetweenstats(
+    data = .,
+    x = Province,
+    y = value,
+    grouping.var = var,
+    ggplot.component = list(ggplot2::scale_color_manual(values = paletteer_vector), ggplot2::coord_flip()),
+    type = "np",
+    plotgrid.args = list(ncol = 2, labels = "auto"),
+    pairwise.display = "significant",
+    mean.plotting = FALSE,
+    sample.size.label = TRUE
+  )
+
+pltsave_func(plt_HairVarMedian, plot_path, width = 16, height = 20)
+
+plt_HairVarMedian
+```
+
+
+

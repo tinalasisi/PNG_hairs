@@ -1,0 +1,102 @@
+---
+title: "Processing raw curvature images"
+author: "Tina Lasisi"
+date: "`r Sys.time()`"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+This documents the entire processing pipeline from raw curvature image to parameter estimation.
+```{r}
+library(tidyverse)
+
+F = rprojroot::is_rstudio_project$make_fix_file()
+
+knitr::opts_chunk$set(echo = TRUE, include = TRUE, eval = TRUE, warning = FALSE, message = FALSE)
+```
+
+## Renaming images
+
+```{r, eval=FALSE}
+
+# imdir <- "/Users/tpl5158/Box/PNG_SA_CURVATURE/"
+#Import CSV file with old and new names as dataframe
+rename_sh <- read.csv(F("data/PNG_curv_renaming_sheet.csv"))
+
+#Add filetype to names
+rename_sh <- rename_sh %>% 
+  mutate(old = paste0("P", old, ".RW2"),
+         new = paste0(new, ".RW2"))
+
+# Create vectors with complete file path
+old.names <- as.vector(paste0("/Users/tpl5158/Box/PNG_SA_CURVATURE/20200817Dump/", rename_sh$old))
+dir.create("/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/PNG_curv_raw/")
+new.names <- as.vector(paste0("/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/PNG_curv_raw/", rename_sh$new))
+
+# check the names
+head(old.names)
+head(new.names)
+# check number of files
+length(old.names)
+length(new.names)
+
+# Use copy to rename the files without altering originals
+file.copy(from = old.names, to = new.names)
+
+
+```
+
+## Converting images to grayscale
+
+First go to correct directory.
+```{bash, eval=FALSE}
+cd /Users/tpl5158/Box/01_TPL5158/PNG_hairs
+```
+
+Then activate conda environment.
+```{bash, eval=FALSE}
+conda activate fibermorph_env
+```
+
+Update conda.
+```{bash, eval=FALSE}
+conda update --all
+```
+
+Update fibermorph.
+```{bash, eval=FALSE}
+pip install fibermorph -U
+```
+
+Added raw images from previous data acquisition.
+
+Finally, convert raw images to grayscale
+```{bash, eval=FALSE}
+fibermorph --raw2gray -i data/PNG_curv_raw -o data --jobs 4
+```
+When I ran this on Dec 16, 2020 (13:01), it processed 67 files in 52s (1.27 files/s).
+
+## Get cross-sectional parameters (without saved images)
+```{bash, eval=FALSE}
+fibermorph --curvature -i data/PNG_curv_tiff -o data --resolution_mm 132  --jobs 4
+```
+
+When I ran this on Dec 16, 2020 (15:19), it processed 67 files in 20m 35s (18.43s/file)
+
+Then check the file 
+```{r}
+
+curvature_df <- read.csv("data/Dec16_1519_fibermorph_curvature/curvature_summary_data_Dec16_1540.csv")
+
+head(curvature_df)
+```
+
+
+If everything is as expected, delete unnecessary columns and save.
+```{r}
+curvature_df_out <- as_tibble(curvature_df) %>% 
+  select(-X) %>% 
+  mutate(ID = as_factor(sort(as.numeric(str_remove_all(ID, "PNG"))))) %>% 
+  write.csv("data/curvature_df.csv", row.names = FALSE)
+```
+

@@ -1,11 +1,12 @@
 ---
-title: "Renaming & converting raw section images"
+title: "Processing raw section images"
 author: "Tina Lasisi"
 date: "`r Sys.time()`"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
 ---
+This documents the entire processing pipeline from raw cross-sectional image to parameter estimation.
 
 ```{r}
 library(tidyverse)
@@ -19,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE, include = TRUE, eval = TRUE, warning = FALSE,
 
 ```{r, eval=FALSE}
 
-imdir <- "/Users/tpl5158/Box/PNG_section_images"
+# imdir <- "/Users/tpl5158/Box/PNG_section_images"
 #Import CSV file with old and new names as dataframe
 rename_sh <- read.csv("data/PNG_renaming_sheet.csv")
 
@@ -30,7 +31,7 @@ rename_sh <- rename_sh %>%
 
 # Create vectors with complete file path
 old.names <- as.vector(paste0("/Users/tpl5158/Box/PNG_section_images/", rename_sh$location, "/", rename_sh$old))
-new.names <- as.vector(paste0("/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/", "PNG_raw/", rename_sh$new))
+new.names <- as.vector(paste0("/Users/tpl5158/Box/01_TPL5158/PNG_hairs/data/", "PNG_sect_raw/", rename_sh$new))
 
 # check the names
 head(old.names)
@@ -67,23 +68,25 @@ Update fibermorph.
 pip install fibermorph -U
 ```
 
+Added 2 samples from previous data acquisition (used B side images only).
+
 Finally, convert raw images to grayscale
 ```{bash, eval=FALSE}
-fibermorph --raw2gray -i data/PNG_raw -o data --jobs 4
+fibermorph --raw2gray -i data/PNG_sect_raw -o data --jobs 4
 ```
-When I ran this on Dec 11, 2020 (11:55), it processed 335 files in 4m 7s (1.35 files/s).
+When I ran this on Dec 16, 2020 (13:09), it processed 347 files in 4m 26s (1.30 files/s).
 
 ## Get cross-sectional parameters
 ```{bash, eval=FALSE}
-fibermorph --section -i data/tiff -o data --minsize 20 --maxsize 150 --resolution_mu 4.25 --jobs 4
+fibermorph --section -i data/PNG_sect_tiff -o data --minsize 20 --maxsize 150 --resolution_mu 4.25 --jobs 4
 ```
 
-When I ran this on Dec 11, 2020 (12:08), it processed 335 files in 7m 48s (1.40s/file)
+When I ran this on Dec 16, 2020 (13:28), it processed 347 files in 8m 42s (1.51s/file)
 
 Then check the file 
 ```{r}
 
-section_df <- read.csv("data/Dec11_1208_fibermorph_section/summary_section_data.csv")
+section_df <- read.csv("data/Dec16_1328_fibermorph_section/summary_section_data.csv")
 
 head(section_df)
 ```
@@ -92,8 +95,9 @@ If everything is as expected, separate the hairs per ID and calculate summary va
 ```{r}
 section_df_out <- as_tibble(section_df) %>% 
   separate(col = ID, into = c("ID", "hair")) %>% 
+  mutate(ID = as_factor(sort(as.numeric(str_remove_all(ID, "PNG"))))) %>% 
   group_by(ID) %>% 
   summarise(across(where(is.numeric), list(median = median, mean = mean, sd = sd), .names = "{.col}_{.fn}")) %>% 
-  write.csv("data/section_df.csv")
+  write.csv("data/section_df.csv", row.names = FALSE)
 ```
 
