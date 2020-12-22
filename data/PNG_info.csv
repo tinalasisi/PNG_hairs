@@ -1,0 +1,82 @@
+﻿ID,Sex,Age,Province,Treatment,Pigmentation_analysis
+1,Male,20-30,Enga,None,TRUE
+2,Male,20-30,Enga,None,FALSE
+3,Female,20-30,Manus,None,TRUE
+4,Male,20-30,Western Highlands,None,TRUE
+5,Female,20-30,Morobe,None,TRUE
+6,Female,20-30,East New Britain,None,TRUE
+7,Female,20-30,Bougainville,None,TRUE
+8,Female,20-30,East New Britain,None,TRUE
+9,Female,20-30,Morobe,None,TRUE
+11,Male,20-30,Western Highlands,None,FALSE
+12,Male,20-30,Jiwaka,None,FALSE
+13,Male,20-30,Western Highlands,None,TRUE
+14,Male,20-30,Western Highlands,None,TRUE
+19,Male,20-30,Southern Highlands,None,TRUE
+20,Male,20-30,Western Highlands,None,TRUE
+21,Male,30-40,East Sepik,None,TRUE
+22,Male,20-30,Gulf,None,TRUE
+23,Male,20-30,Western Highlands,None,TRUE
+25,Male,30-40,Enga,None,TRUE
+27,Female,20-30,Central Province,None,TRUE
+28,Female,20-30,East Sepik/Milne Bay,Colour/Bleach,FALSE
+29,Female,20-30,Central Province,None,TRUE
+30,Female,20-30,Milne Bay,Colour/Bleach,FALSE
+31,Female,20-30,Manus,None,TRUE
+32,Female,20-30,New Ireland,Mega Growth Relaxer,TRUE
+33,Male,20-30,Southern Highlands,None,TRUE
+34,Female,20-30,Madang,None,TRUE
+36,Female,20-30,Eastern Highlands,None,TRUE
+37,Female,20-30,Bougainville,Mega Growth Relaxer,FALSE
+38,Female,20-30,Central Province,None,TRUE
+39,Female,20-30,East Sepik/Central Province,None,FALSE
+40,Female,20-30,East New Britain,Mega Growth Relaxer,TRUE
+41,Male,20-30,New Ireland,None,TRUE
+42,Female,20-30,Oro,None,TRUE
+43,Female,20-30,East Sepik,Mega Growth Relaxer,TRUE
+44,Female,20-30,Central Province,None,TRUE
+45,Male,20-30,Western Highlands,None,TRUE
+46,Female,20-30,Western Highlands,None,TRUE
+48,Female,20-30,Central Province,None,TRUE
+49,Male,20-30,West New Britain,None,TRUE
+50,Female,20-30,Western Highlands,Mega Growth Relaxer,TRUE
+51,Male,20-30,Enga,None,TRUE
+52,Female,20-30,East Sepik,None,TRUE
+55,Female,20-30,Bougainville,None,TRUE
+57,Female,30-40,Enga,None,FALSE
+58,Female,30-40,Madang,None,FALSE
+59,Female,20-30,Enga,None,TRUE
+60,Female,20-30,East New Britain,None,TRUE
+62,Female,20-30,Eastern Highlands,None,TRUE
+64,Female,20-30,Morobe,Mega Growth Relaxer,TRUE
+66,Female,20-30,Manus,None,TRUE
+67,Female,20-30,Southern Highlands,None,FALSE
+68,Male,20-40,Milne Bay,None,TRUE
+71,Female,20-30,Milne Bay,None,TRUE
+72,Male,50-60,Milne Bay,None,FALSE
+73,Male,20-30,Gulf,None,TRUE
+74,Male,40-50,Madang/Southern Highlands,None,FALSE
+75,Male,20-30,East New Britain,None,FALSE
+76,Male,20-30,Enga,None,FALSE
+77,Female,20-30,East New Britain,None,TRUE
+78,Male,20-30,New Ireland,None,TRUE
+79,Female,20-30,Central Province,None,FALSE
+80,Female,20-30,Madang/Jiwaka,Colour/Bleach,FALSE
+82,Male,20-30,Enga,None,FALSE
+84,Male,20-30,Bougainville,None,TRUE
+85,Male,20-30,Western Highlands,None,TRUE
+86,Female,60-70,New Ireland,None,TRUE
+87,Male,20-30,Enga,None,FALSE
+88,Male,20-30,Enga/Southern Highlands,None,FALSE
+89,Male,20-30,Hela,None,FALSE
+91,Male,20-30,Bougainville,None,TRUE
+92,Female,40-50,West New Britain,Yes,FALSE
+93,Female,20-30,Hela,None,TRUE
+94,Male,20-50,Western Province,None,TRUE
+95,Male,20-30,Jiwaka,None,FALSE
+96,Male,20-30,East Sepik/Morobe,None,FALSE
+97,Male,20-30,Eastern Highlands,None,FALSE
+100,Female,20-30,Eastern Highlands,Mega Growth Relaxer,TRUE
+101,Female,20-30,Chimbu,Colour/Bleach,FALSE
+102,Female,20-30,Western Highlands,Colour/Bleach,FALSE
+105,Male,60-70,New Ireland,None,FALSE

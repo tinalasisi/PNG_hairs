@@ -6,6 +6,7 @@
 .DS_Store
 data/*/*RW2
 data/*/*tiff
+data/*/*/*csv
 analysis/figure
 analysis/*png
 analysis/*html
